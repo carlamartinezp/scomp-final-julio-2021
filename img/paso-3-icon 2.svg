@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83.238" height="82" viewBox="0 0 83.238 82">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #666;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #f14b94;
+        stroke: #f14b94;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_1661" data-name="Grupo 1661" transform="translate(-180 -2490.941)">
+    <g id="Grupo_1154" data-name="Grupo 1154" transform="translate(1.619 703.054)">
+      <rect id="Rectángulo_384" data-name="Rectángulo 384" class="cls-1" width="80" height="80" transform="translate(180 1788.887)"/>
+      <path id="Trazado_6446" data-name="Trazado 6446" class="cls-2" d="M217.375,1829.562A25.894,25.894,0,0,0,200,1822.887h-6.044v-8.578l-14.574,14.577,14.574,14.58v-8.579H200a13.994,13.994,0,0,1,11.42,5.911"/>
+      <path id="Trazado_6447" data-name="Trazado 6447" class="cls-2" d="M246.045,1822.887H240a26.031,26.031,0,0,0-26,26v20h12v-20a14.017,14.017,0,0,1,14-14h6.046v8.578l14.574-14.577-14.574-14.58Z"/>
+      <path id="Trazado_6448" data-name="Trazado 6448" class="cls-3" d="M226,1822.36a30.407,30.407,0,0,0-6,4.23,30.255,30.255,0,0,0-6-4.21v-18.92h-8.578L220,1788.887l14.577,14.573H226Z"/>
+    </g>
+  </g>
+</svg>

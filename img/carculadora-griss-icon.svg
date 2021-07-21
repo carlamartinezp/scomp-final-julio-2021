@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="41" viewBox="0 0 31 41">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #666;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill: #666;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_1613" data-name="Grupo 1613" transform="translate(-359.5 -499.5)">
+    <rect id="Rectángulo_28" data-name="Rectángulo 28" class="cls-1" width="30" height="40" rx="2" transform="translate(360 500)"/>
+    <g id="Rectángulo_29" data-name="Rectángulo 29" class="cls-2" transform="translate(364 504)">
+      <rect class="cls-3" width="22" height="8"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="21" height="7"/>
+    </g>
+    <g id="Rectángulo_30" data-name="Rectángulo 30" class="cls-1" transform="translate(364 532)">
+      <rect class="cls-3" width="4" height="4"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="3" height="3"/>
+    </g>
+    <g id="Rectángulo_31" data-name="Rectángulo 31" class="cls-1" transform="translate(370 532)">
+      <rect class="cls-3" width="4" height="4"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="3" height="3"/>
+    </g>
+    <g id="Rectángulo_32" data-name="Rectángulo 32" class="cls-1" transform="translate(364 526)">
+      <rect class="cls-3" width="4" height="4"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="3" height="3"/>
+    </g>
+    <g id="Rectángulo_33" data-name="Rectángulo 33" class="cls-1" transform="translate(370 526)">
+      <rect class="cls-3" width="4" height="4"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="3" height="3"/>
+    </g>
+    <g id="Rectángulo_34" data-name="Rectángulo 34" class="cls-1" transform="translate(364 520)">
+      <rect class="cls-3" width="4" height="4"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="3" height="3"/>
+    </g>
+    <g id="Rectángulo_35" data-name="Rectángulo 35" class="cls-1" transform="translate(370 520)">
+      <rect class="cls-3" width="4" height="4"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="3" height="3"/>
+    </g>
+    <g id="Rectángulo_36" data-name="Rectángulo 36" class="cls-1" transform="translate(364 514)">
+      <rect class="cls-3" width="4" height="4"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="3" height="3"/>
+    </g>
+    <g id="Rectángulo_37" data-name="Rectángulo 37" class="cls-1" transform="translate(370 514)">
+      <rect class="cls-3" width="4" height="4"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="3" height="3"/>
+    </g>
+    <g id="Rectángulo_42" data-name="Rectángulo 42" class="cls-1" transform="translate(376 532)">
+      <rect class="cls-3" width="4" height="4"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="3" height="3"/>
+    </g>
+    <g id="Rectángulo_43" data-name="Rectángulo 43" class="cls-1" transform="translate(376 526)">
+      <rect class="cls-3" width="4" height="4"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="3" height="3"/>
+    </g>
+    <g id="Rectángulo_44" data-name="Rectángulo 44" class="cls-1" transform="translate(376 520)">
+      <rect class="cls-3" width="4" height="4"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="3" height="3"/>
+    </g>
+    <g id="Rectángulo_45" data-name="Rectángulo 45" class="cls-1" transform="translate(376 514)">
+      <rect class="cls-3" width="4" height="4"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="3" height="3"/>
+    </g>
+    <g id="Rectángulo_46" data-name="Rectángulo 46" class="cls-1" transform="translate(382 526)">
+      <rect class="cls-3" width="4" height="10"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="3" height="9"/>
+    </g>
+    <g id="Rectángulo_47" data-name="Rectángulo 47" class="cls-1" transform="translate(382 520)">
+      <rect class="cls-3" width="4" height="4"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="3" height="3"/>
+    </g>
+    <g id="Rectángulo_48" data-name="Rectángulo 48" class="cls-1" transform="translate(382 514)">
+      <rect class="cls-3" width="4" height="4"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="3" height="3"/>
+    </g>
+  </g>
+</svg>

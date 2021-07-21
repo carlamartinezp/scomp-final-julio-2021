@@ -1,0 +1,526 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>SCOMP</title>
+        <meta name="description" content="Sistema de consultas y ofertas de montos de pensión">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="img/favicon/site.webmanifest">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="lib/fancybox/dist/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="lib/perfect-scrollbar.css">
+        <link rel="stylesheet" href="css/main.css?V=1.4">
+        <link rel="stylesheet" href="css/denuncia.css?v=1.0">
+        
+    </head>
+    <body>
+        <style>
+            header{
+                height: 80px;
+            }
+
+        </style>
+
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top">
+              
+                    <a class="navbar-brand" href="./"><img src="img/logo-scomp.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+              
+             <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link inicio-img" href="index.html"><img src="img/home-solid.svg" width="25px" height="25px" alt="icono de inicio"><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="proceso-de-pension.html">PROCESO DE PENSIÓN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="certificado-de-ofertas.html">CERTIFICADO DE OFERTAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="que-es-scomp.html">¿QUÉ ES SCOMP?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="participes.html">PARTÍCIPES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mas-informacion.html">MÁS INFORMACIÓN</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    <style>
+        @keyframes anim-flecha {
+            from {
+                transform: translate(0%, -10%);
+            }
+
+            to {
+                transform: translate(0%, 20%);
+            }
+        }
+
+        /* The element to apply the animation to */
+        svg.flecha-anim polygon {
+            position: relative;
+            animation: anim-flecha 2s infinite;
+        }
+    </style>
+    <section class="container-fluid hero interior">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-dblue">Infórmate más sobre <br class="d-none d-sm-block">nosotros y lo que hacemos</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <div class="box w100 bg-dblue mr-2 py-4"></div>
+                <div class="container py-4">
+                    <div class="row">
+                        <div class="col-12 col-md-6 my-auto">
+                            <p>Revisa la legislación vigente sobre el Sistema de Pensiones, resuelve algunas de las dudas
+                                más comunes sobre el proceso de pensión y entérate de otros sitios de confianza en donde
+                                podrás complementar toda esta información.</p>
+                            <a style="text-decoration: none; color: #fff;" href="#"><img src="img/ico-flecha-abajo-caja-blanco.svg" alt="" class="mr-3 svg flecha-anim"><b>Continúa para
+                                    conocerlos</b></a>
+                        </div>
+                        <div class="col-12 col-md-6 text-center d-none d-sm-none d-md-block">
+                            <img src="img/hero-faq-x2.png" alt="" class="img-hero img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mas-info-pilar pilar">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav>
+                        <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link text-dblue active listado-mas-info" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
+                                <img src="img/icono-tab-leyes.svg" alt="leyes" class="svg leyes">
+                                <span>Legislación
+                                    <br>y Normativa</span>
+                            </a>
+                            <a class="nav-item nav-link text-dblue listado-mas-info" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">
+                                <img src="img/icono-tab-question.svg" alt="question" class="svg question">
+                                <span>Preguntas
+                                    <br>frecuentes</span>
+                            </a>
+                            <a class="nav-item nav-link text-dblue listado-mas-info" id="nav-profile-tab" data-toggle="tab" href="#nav-enlaces" role="tab" aria-controls="nav-enlaces" aria-selected="false">
+                                <img src="img/icono-tab-links.svg" alt="link" class="svg links">
+                                <span>Enlaces
+                                    <br>de interés</span>
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="tab-content col-12 col-md-10 py-1 px-1 px-sm-0 offset-md-1" id="nav-tabContent">
+                        <!--PRIMER TAB-->
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <div class="mt-5 col-12 text-content">
+                                <div class="row">
+                                    <div class="col-md-2 col-lg-3 cont-info-img d-none d-sm-none d-md-block">
+                                        <img src="img/pantalla-bg-azul.svg" alt="" class="im-computador-mas-info">
+                                    </div>
+                                    <div style="margin-bottom: 30px;" class="col-12 col-md-10 col-lg-8">
+                                        <div class="cont-info-text">
+                                            <p>La <b>Ley 19.934 de Rentas Vitalicias</b> que entró en vigencia el 19 de
+                                                agosto de
+                                                2004,
+                                                reformó en aspectos relevantes los mecanismos con que contaba el Sistema de
+                                                Pensiones en Chile. Esta Ley establece las normas relativas al otorgamiento
+                                                de
+                                                pensiones a través de la modalidad de rentas vitalicias y modificó el
+                                                Decreto Ley
+                                                N°3.500 de 1980.</p>
+                                        </div>
+                                        <div class="cont-info-text">
+                                            <p class="text-dblue"> <b>El principal cambio de la Ley fue la creación de un
+                                                    sistema
+                                                    electrónico que permite
+                                                    a través del uso de una tecnología de información, conectar a los
+                                                    futuros
+                                                    pensionados con las entidades existentes en el mercado de las rentas
+                                                    vitalicias, de
+                                                    modo de facilitar una decisión informada y transparente.</b></p>
+                                        </div>
+                                        <div class="cont-info-text">
+                                            <p>
+                                                El funcionamiento del Sistema de Consultas y Ofertas de Montos de Pensión
+                                                SCOMP está
+                                                regulado por esta ley, reglamentos y normas asociadas a la operación del
+                                                SCOMP.
+                                            </p>
+                                            <p><b>La ley modificó también otros aspectos del sistema de pensiones:</b></p>
+                                            <p>Agregó nuevas modalidades de pensión.</p>
+                                            <p>Fijó la comisión de retribución de referencia máxima por intermediación a las
+                                                comisiones de agentes de seguros.</p>
+                                            <!-- <p>Aumentó los requisitos para pensionarse anticipadamente, de un 50% a un 70%
+                                                de la
+                                                renta imponible de los últimos 10 años, aumento que ha sido gradual en el
+                                                tiempo.
+                                            </p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Contenedor del PRIMER TAB -->
+                                
+                                    <div class="col-12">
+                                        <h2 style="margin-bottom: 20px;" class="text-dblue">Si quieres conocer a fondo estas
+                                            legislaciones y normativas,
+                                            descarga los documentos oficiales:</h2>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 mb-2   box-info-cont">
+                                            <div class="box-info">
+                                                <div class="cont-info">
+                                                    <div class="row">
+                                                        <div class="col-3 col-md-2 d-none d-sm-none d-md-none d-lg-block img-box-info">
+                                                            <img src="img/text-3500-azul.svg" alt="" class="imagen-doct-ms">
+                                                        </div>
+                                                        <div class="col-12 col-md-12 col-lg-9">
+                                                            <div style="padding:0 10px;">
+                                                                <h5 class="text-dblue"><b>¿Que es?</b></h5>
+                                                                <p>Es el Decreto Ley 3.500 y contiene las normas y
+                                                                    legislaciones
+                                                                    que
+                                                                    establecen el actual sistema de pensiones chileno.</p>
+                                                                <div class="descargable-info">
+                                                                    <a style="color: #fff;">Descargar</a>
+                                                                    <span><i>Archivo PDF - Peso 1.4 MB</i></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 mb-2  box-info-cont">
+                                            <div class="box-info">
+                                                <div class="cont-info">
+                                                    <div class="row">
+                                                        <div class="col-3 col-md-2 d-none d-sm-none d-md-none d-lg-block img-box-info">
+                                                            <img src="img/mas-info-icon-dos.svg" alt="" class="imagen-doct-ms">
+                                                        </div>
+                                                        <div class="col-12 col-md-12 col-lg-9">
+                                                            <div style="padding:0 10px;">
+                                                                <h5 class="text-dblue"><b>¿Que es?</b></h5>
+                                                                <p>Norma de Carácter General que imparte instrucciones sobre
+                                                                    el Sistema de Consultas y Ofertas de Montos de Pensión
+                                                                    (SCOMP).</p>
+                                                                <div class="descargable-info">
+                                                                    <a style="color: #fff;">Descargar</a>
+                                                                    <span><i>Archivo PDF - Peso 1.4 MB</i></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                            </div>
+                        </div>
+                        <!-- SEGUNDO TAB-->
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div style="margin-top: 80px;" class="mas-info-pilar">
+                                <div class="container">
+                                    <div class="collapser-box">
+                                        <div id="accordion">
+                                            <div class="card card-box">
+                                                <div class="card-header bg-white">
+                                                    <a class="card-link text-dblue" data-toggle="collapse" href="#collapseOne">
+                                                        <div class="panel-title">
+                                                            <span class="icono-acordion"></span>
+                                                            <p>¿Cómo y dónde se inicia el trámite de pensión?</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                                    <div class="col-12 col-md-9 card-body">
+                                                        <p>El trámite de pensión se inicia en la AFP en donde se encuentra
+                                                            afiliado el pensionable, y en caso de pensiones de
+                                                            sobrevivencia, en aquella AFP en donde se encontraba afiliado el
+                                                            fallecido. Para ello deberás suscribir el formulario de
+                                                            Solicitud de Pensión y la Declaración de Beneficiarios
+                                                            respectiva.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card card-box">
+                                                <div class="card-header bg-white">
+                                                    <a class="collapsed card-link text-dblue" data-toggle="collapse" href="#collapseTwo">
+                                                        <div class="panel-title">
+                                                            <span class="icono-acordion"></span>
+                                                            <p> ¿Es obligación ingresar por el Sistema de Consultas y
+                                                                Ofertas de Montos de Pensión?</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                                    <div class=" col-12 col-md-9 card-body">
+                                                        <p>Sí, consultar en SCOMP, es de <b>carácter obligatorio,</b> tanto
+                                                            para
+                                                            los afiliados como para los beneficiarios de pensión de
+                                                            sobrevivencia, al momento de optar por una modalidad de pensión,
+                                                            si el saldo de la cuenta individual es suficiente para financiar
+                                                            una Pensión Básica Solidaria.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card card-box">
+                                                <div class="card-header bg-white">
+                                                    <a class="collapsed card-link text-dblue" data-toggle="collapse" href="#collapse-03">
+                                                        <div class="panel-title">
+                                                            <span class="icono-acordion"></span>
+                                                            <p>¿Qué es el Listado Público de pensionables?</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="collapse-03" class="collapse" data-parent="#accordion">
+                                                    <div class=" col-12 col-md-9 card-body">
+                                                        <p>Es un listado que tiene por objeto <b>dar a conocer en forma
+                                                                transparente y en iguales condiciones,</b> la identificación
+                                                            de los
+                                                            potenciales Pensionables, asegurando las mismas oportunidades a
+                                                            todos los actores que intervienen en las pensiones. </p>
+                                                        <p>Tendrán acceso a este Listado, las Administradoras de Fondos de
+                                                            Pensiones, las Compañías de Seguros de Vida que hayan informado
+                                                            a la Superintendencia de Valores y Seguros que comercializan
+                                                            Rentas Vitalicias, y los Asesores Previsionales inscritos en el
+                                                            Registro de Asesores Previsionales constituido por la
+                                                            Superintendencia de Pensiones. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card card-box">
+                                                <div class="card-header bg-white">
+                                                    <a class="collapsed card-link text-dblue" data-toggle="collapse" href="#collapse-04">
+                                                        <div class="panel-title">
+                                                            <span class="icono-acordion"></span>
+                                                            <p>¿Al consultar en SCOMP es obligatorio pensionarse o se pueden
+                                                                hacer consultas libremente?</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="collapse-04" class="collapse" data-parent="#accordion">
+                                                    <div class=" col-12 col-md-9 card-body">
+                                                        <p><b>Consultar al SCOMP no lo obliga a pensionarse inmediatamente
+                                                                (a excepción de una pensión de invalidez),</b> su finalidad
+                                                            es
+                                                            entregar
+                                                            ofertas de pensión de los distintos partícipes del sistema (AFP
+                                                            y Compañías de Seguros) de acuerdo con los requerimientos
+                                                            señalados por el afiliado. </p>
+                                                        <p>Las ofertas que reciba tendrán una duración de doce días hábiles,
+                                                            y sólo en la medida en que el afiliado decida suscribir alguna
+                                                            alternativa, el proceso de pensión se hará obligatorio. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card card-box">
+                                                <div class="card-header bg-white">
+                                                    <a class="card-link text-dblue" data-toggle="collapse" href="#collapse05">
+                                                        <div class="panel-title">
+                                                            <span class="icono-acordion"></span>
+                                                            <p>¿Cuánto plazo tengo para hacer una consulta al SCOMP?</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="collapse05" class="collapse" data-parent="#accordion">
+                                                    <div class="col-12 col-md-9 card-body">
+                                                        <p>Usted podrá ingresar una consulta al SCOMP durante el período de
+                                                            vigencia del Certificado de Saldo emitido por su AFP, esto es
+                                                            <b>35
+                                                                días corridos.</b> Si su certificado expira, deberá
+                                                            solicitar otro a
+                                                            su AFP para volver a ingresar al sistema.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card card-box">
+                                                <div class="card-header bg-white">
+                                                    <a class="card-link text-dblue" data-toggle="collapse" href="#collapse06">
+                                                        <div class="panel-title">
+                                                            <span class="icono-acordion"></span>
+                                                            <p>¿Cuáles son las alternativas o modalidades de pensión?</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="collapse06" class="collapse" data-parent="#accordion">
+                                                    <div class="col-12 col-md-9 card-body">
+                                                        <p>Las alternativas o modalidades de pensión que contempla el
+                                                            sistema
+                                                            previsional son las siguientes: </p>
+                                                        <ul>
+                                                            <li>Retiro Programado</li>
+                                                            <li>Renta Vitalicia Inmediata</li>
+                                                            <li>Renta Temporal con Renta Vitalicia Diferida</li>
+                                                            <li>Renta Vitalicia Inmediata con Retiro Programado</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card card-box">
+                                                <div class="card-header bg-white">
+                                                    <a class="card-link text-dblue" data-toggle="collapse" href="#collapse07">
+                                                        <div class="panel-title">
+                                                            <span class="icono-acordion"></span>
+                                                            <p>¿Qué vigencia tienen las ofertas internas y ofertas externas?
+                                                            </p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="collapse07" class="collapse" data-parent="#accordion">
+                                                    <div class="col-12 col-md-9 card-body">
+                                                        <p>- Las ofertas internas tienen una vigencia de <b>12 días
+                                                                hábiles</b>
+                                                            contada
+                                                            desde la emisión del Certificado de Ofertas.</p>
+                                                        <p>- Las ofertas externas tienen una vigencia de <b>15 días</b>
+                                                            corridos
+                                                            desde
+                                                            su fecha de emisión. </p>
+                                                        <p>Si el plazo señalado venciere en día sábado o festivo, la
+                                                            vigencia se
+                                                            prorrogará hasta el día hábil siguiente, debiendo el Sistema
+                                                            rechazar las ofertas externas que no cumplan con dicha prórroga.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="border-bottom: 3px solid #0071BC;" class="card card-box">
+                                                <div class="card-header bg-white">
+                                                    <a class="card-link text-dblue" data-toggle="collapse" href="#collapse08">
+                                                        <div class="panel-title">
+                                                            <span class="icono-acordion"></span>
+                                                            <p>¿Puedo solicitar asesoría previsional externa?</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="collapse08" class="collapse" data-parent="#accordion">
+                                                    <div class="col-12 col-md-9 card-body">
+                                                        <p>Efectivamente, puedes solicitar asesoría a través de un Asesor
+                                                            Previsional, quien, en su labor de asesoría e intermediación,
+                                                            deberá
+                                                            orientarte en todos los pasos previos a su pensión. Esto incluye
+                                                            informar las coberturas y modalidades de pensión más
+                                                            convenientes
+                                                            para cada caso, el funcionamiento del SCOMP, enviar y transmitir
+                                                            las
+                                                            consultas de montos de pensión y asistirle en todas las
+                                                            gestiones
+                                                            que corresponda, ya sea en casos de aceptación de alguna de las
+                                                            ofertas, negociación directa con alguna Compañía de Seguros,
+                                                            participación en el remate electrónico o postergación de la
+                                                            pensión.
+                                                        </p>
+                                                        <p>Por este servicio el Asesor Previsional <b>cobra honorarios o
+                                                                comisión</b>
+                                                            de acuerdo con lo establecidos en la ley.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TERCER TAB-->
+                        <div class="tab-pane fade" id="nav-enlaces" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="enlaces-interes-centenedor">
+                                
+                                    <div class="col-10 col-md-8">
+                                        <p style="">En los siguientes enlaces encontrarás
+                                            información complementaria, que explica en
+                                            mayor profundidad los conceptos y procesos asociados al Sistema de Pensiones:
+                                        </p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <a style="text-decoration: none;" href="#">
+                                                <div class="enlace-cont">
+                                                    <img src="img/AFP-logo.svg" alt="">
+                                                    <p style="margin-top:35px;">Organización gremial que reúne a las
+                                                        sociedades Administradoras de
+                                                        Fondos de Pensiones.</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <a style="text-decoration: none;" href="#">
+                                                <div class="enlace-cont">
+                                                    <img src="img/AA-x2.png" alt="">
+                                                    <p>Representa a todos sus Asociados de Compañías Aseguradoras de Chile.
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <a style="text-decoration: none;" href="#">
+                                                <div class="enlace-cont">
+                                                    <img src="img/SP-x2.png" alt="">
+                                                    <p>Organismo contralor que representa al Estado al interior del sistema
+                                                        de pensiones chileno. </p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <a style="text-decoration: none;" href="#">
+                                                <div class="enlace-cont">
+                                                    <img style="margin-top: 34px;margin-bottom: 38px;" src="img/logo-CMF-x2.png" alt="">
+                                                    <p>Servicio público descentralizado que busca velar por el correcto
+                                                        funcionamiento del mercado financiero.</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- <div style="margin-top: 20px;" class="col-10 col-md-5">
+                                        <p style="">Si aún no resuelves tus dudas, <a href="#">envíanos tu pregunta</a> y nos
+                                            comunicaremos con contigo lo más pronto posible.
+                                        </p>
+                                    </div> -->
+                           
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FIN-TERCER TAB-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   
+      <!-- Add your site or application content here -->
+      <script src="lib/jquery/dist/jquery.min.js"></script>
+      <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="lib/fancybox/dist/jquery.fancybox.min.js"></script>
+      <script src="lib/perfect-scrollbar.min.js"></script>
+      <script src="lib/jquery-rut/jquery.rut.min.js"></script>
+      <script src="js/main.js?v=1.1"></script>
+      <script src="js/denuncia.js?v=1.0"></script>
+		
+      </body>
+
+      </html>

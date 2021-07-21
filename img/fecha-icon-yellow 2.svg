@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.707" height="8.907" viewBox="0 0 21.707 8.907">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke: #f5af18;
+      }
+
+      .cls-2 {
+        stroke: #f7c352;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_1660" data-name="Grupo 1660" transform="translate(-140 -1779.445)">
+    <g id="Grupo_1141" data-name="Grupo 1141" transform="translate(-40.816 550.054)">
+      <line id="Línea_783" data-name="Línea 783" class="cls-1" x2="20" transform="translate(180.816 1233.744)"/>
+      <path id="Trazado_6033" data-name="Trazado 6033" class="cls-1" d="M196.816,1237.744l4-4-4-4"/>
+    </g>
+    <g id="Grupo_1488" data-name="Grupo 1488" transform="translate(-39.816 1292.054)">
+      <line id="Línea_760" data-name="Línea 760" class="cls-2" x2="20" transform="translate(180.816 491.944)"/>
+      <path id="Trazado_5762" data-name="Trazado 5762" class="cls-2" d="M196.816,495.944l4-4-4-4"/>
+    </g>
+  </g>
+</svg>

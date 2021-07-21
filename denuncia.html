@@ -1,0 +1,168 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>SCOMP</title>
+        <meta name="description" content="Sistema de consultas y ofertas de montos de pensión">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="img/favicon/site.webmanifest">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="lib/fancybox/dist/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="lib/perfect-scrollbar.css">
+        <link rel="stylesheet" href="css/main.css?V=1.4">
+        <link rel="stylesheet" href="css/denuncia.css?v=1.0">
+        
+    </head>
+    <body>
+        <style>
+            header{
+                height: 80px;
+            }
+
+        </style>
+
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top">
+              
+                    <a class="navbar-brand" href="./"><img src="img/logo-scomp.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+              
+             <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link inicio-img" href="index.html"><img src="img/home-solid.svg" width="25px" height="25px" alt="icono de inicio"><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="proceso-de-pension.html">PROCESO DE PENSIÓN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="certificado-de-ofertas.html">CERTIFICADO DE OFERTAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="que-es-scomp.html">¿QUÉ ES SCOMP?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="participes.html">PARTÍCIPES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mas-informacion.html">MÁS INFORMACIÓN</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+<section class="contactanos">
+    <div class="container">
+        <form id="formDenuncia" action="denuncia-procesar.html" method="post" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-12 col-md-9 col-lg-6">
+                    <div class="pasos-contacto-1 datos-contacto">
+                        <br>
+                        <br>
+                        <br>
+                        <h2 class="titulo-canal">Canal de denuncias</h2>
+                        <ul class="etapas">
+                            <li class="etapa-1 active">1</li>
+                            <li class="etapa-2">2</li>
+                        </ul>
+                        <h3>Para comenzar, ingresa tus datos personales</h3>
+                        <p>Con el fin de asegurar la validez de tu denuncia, te solicitamos algunos datos personales. Sin embargo, puedes elegir que tu identidad sea protegida durante todo el proceso de denuncia.</p>
+                        <div class="col-12 datos-denunciante">
+                            <input type="text" name="nombre1" placeholder="Primer Nombre" required maxlength="15">
+                        </div>
+                        <div class="col-12 datos-denunciante">
+                            <input type="text" name="nombre2" placeholder="Segundo Nombre" required maxlength="15">
+                        </div>
+                        <div class="col-12 datos-denunciante">
+                            <input type="text" name="apellido1" placeholder="Apellido Paterno" required maxlength="20">
+                        </div>
+                        <div class="col-12 datos-denunciante">
+                            <input type="text" name="apellido2" placeholder="Apellido Materno" required maxlength="20">
+                        </div>
+                        <div class="col-12 datos-denunciante">
+                            <input type="text" name="rut" placeholder="RUT" id="rut" required>
+                        </div>
+                        <div class="col datos-denunciante">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="col datos-denunciante">
+                            <input type="email" name="email2" placeholder="Confirmar Email" onselectstart="return false" onpaste="return false;" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off/><br>
+                        </div>
+                        <div class="col datos-denunciante">
+                            <input type="tel" name="telefono" placeholder="N° de teléfono o celular" required>
+                        </div>
+                         <div class="col-12 proteccion-caja">
+                        <h3>¿Deseas proteger tu identidad al realizar la denuncia?</h3>
+                        <label class="switch">
+                            <input type="checkbox" name="proteger_identidad" checked="true">
+                            SÍ<span class="slider round"></span>NO
+                        </label>
+                        </div>
+                        <div class="col-12 no-padding">
+                            <a class="continua-botton siguiente">Continuar</a>
+                        </div>
+                    </div>
+                    <div class="pasos-contacto-2 datos-contacto" style="display:none;">
+                        <br>
+                        <br>
+                        <br>
+                        <h2 class="titulo-canal">Canal de denuncias</h2>
+                        <ul class="etapas">
+                            <li class="etapa-1 active">1</li>
+                            <li class="etapa-2 active">2</li>
+                        </ul>
+                        <h3>Para terminar, cuéntanos los detalles de tu denuncia</h3>
+                        <p>Si has observado o sido víctima de algún delito o situación irregular, haz tu denuncia aquí. Es fundamental que indiques el nombre de la persona denunciada, fecha en la cual ocurrió la situación (si la conoces), tu participación en relación con los eventos (testigo, afectado, etc.) y cualquier otro antecedente que te parezca necesario dar a conocer.</p>
+                        <textarea id="denuncia" name="denuncia" class="comentario-contacto p-3 denuncia" placeholder="Escribe todos los detalles aquí" onkeyup="checkLengh()" onblur="checkLengh()"></textarea>
+                        <small class="d-block mt-3 mb-2">Mínimo 100 caracteres, máximo 2.000 caracteres</small>
+                        <div class="denuncia-progress mb-4"><div class="bar"><div class="length">0</div></div></div>
+                        <br>
+                        <p>Si dispones de antecedentes (fotos, documentos u otro), adjunta una foto o copia digital aquí.</p>
+                        <p><small>(Solo archivos Word, PDF, jpg, png, pdf o bmp de tamaño Max. 2MB)</small></p>
+                        <div>
+                            <span class="custom-input-file px-5 py-2">
+                                <input type="file" id="file" name="file" class="input-file" value="" accept=".jpg, .jpeg, .png, .bmp, .pdf, .doc, .docx" >
+                                <input type="hidden" name="path">
+                                <img src="img/dowloader-icon.svg" alt="">Examinar
+                            </span>
+                            <span class="d-block filename p-3"></span>
+                            <div>
+                                <div class="col-12 no-padding">
+                                    <button id="btnVolverPaso1" class="btn btn-default pr-3"><img src="img/arrow-left.svg" alt=""> volver</button>
+                                    <input type="submit" class="continua-botton enviar" placeholder="Enviar">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+      <!-- Add your site or application content here -->
+      <script src="lib/jquery/dist/jquery.min.js"></script>
+      <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="lib/fancybox/dist/jquery.fancybox.min.js"></script>
+      <script src="lib/perfect-scrollbar.min.js"></script>
+      <script src="lib/jquery-rut/jquery.rut.min.js"></script>
+      <script src="js/main.js?v=1.1"></script>
+      <script src="js/denuncia.js?v=1.0"></script>
+		
+      </body>
+
+      </html>

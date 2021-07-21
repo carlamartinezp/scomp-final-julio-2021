@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="41" viewBox="0 0 46 41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #666;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #666;
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_1619" data-name="Grupo 1619" transform="translate(-1620.5 1098.5)">
+    <g id="Grupo_1618" data-name="Grupo 1618">
+      <rect id="Rectángulo_24" data-name="Rectángulo 24" class="cls-1" width="5" height="24" transform="translate(1661 -1087)"/>
+      <path id="Trazado_18" data-name="Trazado 18" class="cls-2" d="M224,500h2v40h-2" transform="translate(1431 -1598)"/>
+      <path id="Trazado_19" data-name="Trazado 19" class="cls-3" d="M190,540V507l7-7h25v40Z" transform="translate(1431 -1598)"/>
+      <line id="Línea_7" data-name="Línea 7" class="cls-3" x2="10.78" transform="translate(1636.751 -1092)"/>
+      <line id="Línea_8" data-name="Línea 8" class="cls-3" x2="13.063" transform="translate(1634.468 -1085.5)"/>
+      <line id="Línea_9" data-name="Línea 9" class="cls-3" x2="8.063" transform="translate(1634.468 -1082.5)"/>
+      <path id="Trazado_20" data-name="Trazado 20" class="cls-3" d="M197,500v7h-7" transform="translate(1431 -1598)"/>
+      <path id="Trazado_21" data-name="Trazado 21" class="cls-3" d="M240,537l-2.5,3-2.5-3V502.5a2.5,2.5,0,0,1,2.5-2.5h0a2.5,2.5,0,0,1,2.5,2.5Z" transform="translate(1426 -1598)"/>
+      <line id="Línea_10" data-name="Línea 10" class="cls-3" y2="10" transform="translate(1663.5 -1092)"/>
+      <rect id="Rectángulo_25" data-name="Rectángulo 25" class="cls-3" width="5" height="5" transform="translate(1626.468 -1086.5)"/>
+      <line id="Línea_13" data-name="Línea 13" class="cls-3" x2="13.063" transform="translate(1634.468 -1076.5)"/>
+      <line id="Línea_14" data-name="Línea 14" class="cls-3" x2="8.063" transform="translate(1634.468 -1073.5)"/>
+      <rect id="Rectángulo_26" data-name="Rectángulo 26" class="cls-3" width="5" height="5" transform="translate(1626.468 -1077.5)"/>
+      <line id="Línea_15" data-name="Línea 15" class="cls-3" x2="13.063" transform="translate(1634.468 -1067.5)"/>
+      <line id="Línea_16" data-name="Línea 16" class="cls-3" x2="8.063" transform="translate(1634.468 -1064.5)"/>
+      <rect id="Rectángulo_27" data-name="Rectángulo 27" class="cls-3" width="5" height="5" transform="translate(1626.468 -1068.5)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,492 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>SCOMP</title>
+        <meta name="description" content="Sistema de consultas y ofertas de montos de pensión">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="img/favicon/site.webmanifest">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="lib/fancybox/dist/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="lib/perfect-scrollbar.css">
+        <link rel="stylesheet" href="css/main.css?V=1.4">
+        <link rel="stylesheet" href="css/denuncia.css?v=1.0">
+        
+    </head>
+    <body>
+        <style>
+            header{
+                height: 80px;
+            }
+
+        </style>
+
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top">
+              
+                    <a class="navbar-brand" href="./"><img src="img/logo-scomp.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+              
+             <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link inicio-img" href="index.html"><img src="img/home-solid.svg" width="25px" height="25px" alt="icono de inicio"><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="proceso-de-pension.html">PROCESO DE PENSIÓN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="certificado-de-ofertas.html">CERTIFICADO DE OFERTAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="que-es-scomp.html">¿QUÉ ES SCOMP?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="participes.html">PARTÍCIPES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mas-informacion.html">MÁS INFORMACIÓN</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+<body>
+
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <style>
+        @keyframes anim-flecha {
+            from {
+                transform: translate(0%, -10%);
+            }
+
+            to {
+                transform: translate(0%, 20%);
+            }
+        }
+
+        /* The element to apply the animation to */
+        svg.flecha-anim polygon {
+            position: relative;
+            animation: anim-flecha 2s infinite;
+        }
+    </style>
+    <section class="container-fluid hero interior">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-green">Infórmate más sobre <br class="d-none d-sm-block">nosotros y lo que hacemos
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <div class="box w100 bg-green mr-2 py-4"></div>
+                <div class="container py-4">
+                    <div class="row">
+                        <div class="col-12 col-md-6 my-auto">
+                            <p>SCOMP es un sistema electrónico que reúne las alternativas de pensión ofrecidas por
+                                Compañías de Seguros y AFP, cuya utilización es de carácter obligatorio tanto para los
+                                afiliados como para los beneficiarios de pensión de sobrevivencia, al momento de optar
+                                por una modalidad de pensión.</p>
+                            <a style="text-decoration: none; color: #fff;" href="#"><img
+                                    src="img/ico-flecha-abajo-caja-blanco.svg" alt=""
+                                    class="mr-3 svg flecha-anim"><b>Continúa para
+                                    saber
+                                    más sobre nosotros</b></a>
+                        </div>
+                        <div class="col-12 col-md-6 text-center d-none d-sm-none d-md-block">
+                            <img src="img/img-que-es-scomp-x2.png" alt="" class="img-hero img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+
+    </style>
+    <section class="que-es-pilar pilar">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ">
+                    <nav>
+                        <div class=" tabs-que-es nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link text-green active" id="nav-home-tab" data-toggle="tab"
+                                href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Funcionamiento
+                                <br><small>del sistema</small></a>
+                            <a class="nav-item nav-link text-green" id="nav-profile-tab" data-toggle="tab"
+                                href="#nav-profile" role="tab" aria-controls="nav-profile"
+                                aria-selected="false">Organización<br><small>e integrantes</small></a>
+                        </div>
+                    </nav>
+                    <div class="tab-content col-12 col-md-10  offset-md-1 py-1 px-1 px-sm-0" id="nav-tabContent">
+                        <!--Primer TAB-->
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <div class="col-12 text-content">
+                                <div class="col-12 col-md-9 offset-md-3">
+                                    <div class="text-green">
+                                        <h3>¿Cuál es el rol de SCOMP?</h3>
+                                    </div>
+                                    <p>Su propósito es entregar información completa y comparable respecto de las
+                                        ofertas de
+                                        Renta
+                                        Vitalicia y los montos de pensión en Retiro Programado, mediante una plataforma
+                                        tecnológica
+                                        confiable que conecta a las AFP, Compañías de Seguros de Vida y asesores
+                                        previsionales
+                                        con
+                                        los afiliados al sistema de pensiones en Chile.</p>
+                                    <p> Así, el Sistema de Consultas y Ofertas de Montos de Pensión (SCOMP) busca
+                                        garantizar
+                                        al
+                                        afiliado mayor transparencia y acceso a la información, entregando seguridad y
+                                        agilidad
+                                        en
+                                        el proceso para pensionarse.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 text-content">
+                                <div class="row">
+                                    <div class="col-3 d-none d-sm-none d-md-block">
+                                        <img src="img/candado.svg" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-9">
+                                        <div class="text-green">
+                                            <h3>¿Cómo protegemos la información de los afiliados?</h3>
+                                        </div>
+
+                                        <p>SCOMP resguarda que la privacidad de la información cumpla con lo dispuesto
+                                            en la
+                                            Ley
+                                            N°
+                                            19.628 y sus modificaciones, sobre protección de datos de carácter personal.
+                                        </p>
+
+                                        <p> El sistema se basa en la utilización intensiva de servicios a través de
+                                            Internet,
+                                            por lo
+                                            que cuenta con el más alto nivel de seguridad, un control de acceso de
+                                            usuarios,
+                                            uso
+                                            de
+                                            herramientas de encriptación, uso de firma electrónica avanzada y
+                                            certificados
+                                            digitales.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- contenedor del collapsercollapser -->
+                            <div class="collapser-box">
+                                <div id="accordion">
+                                    <div class="card card-box-qs">
+                                        <div class="card-header bg-white">
+                                            <a class="card-link text-green" data-toggle="collapse" href="#collapseOne">
+                                                <div class="panel-title">
+                                                    <span class="icono-acordion"></span>
+                                                    <p>Control de acceso (Firma Electrónica Avanzada)</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div id="collapseOne" class="collapse" data-parent="#accordion">
+                                            <div class="row">
+                                                <div class="col-2 offset-md-1 d-none d-sm-none d-md-block">
+                                                    <img src="img/icon-pandrive.svg" alt="">
+                                                </div>
+                                                <div class="col-12  col-md-9 card-body">
+                                                    <p>El sistema se basa en la utilización intensiva de servicios a
+                                                        través
+                                                        de
+                                                        Internet, por lo que cuenta con el más alto nivel de seguridad,
+                                                        empezando
+                                                        por un control de acceso de usuarios a través de una Firma
+                                                        Electrónica
+                                                        Avanzada.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card card-box-qs">
+                                        <div class="card-header bg-white">
+                                            <a class="card-link text-green" data-toggle="collapse" href="#collapseTwo">
+                                                <div class="panel-title">
+                                                    <span class="icono-acordion"></span>
+                                                    <p>Conexión segura (Certificado Digital SSL)</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                            <div class="row">
+                                                <div class="col-2 offset-md-1 d-none d-sm-none d-md-block">
+                                                    <img src="img/http-icon.svg" alt="">
+                                                </div>
+                                                <div class=" col-12  col-md-9 card-body">
+                                                    <p>El Sistema incorpora el uso de certificados digitales otorgados
+                                                        por
+                                                        entidades especializadas, que resguardan la confidencialidad,
+                                                        integridad, autenticación, no repudio y control de acceso en la
+                                                        transmisión de la información entre los partícipes. Esto se
+                                                        identifica
+                                                        visualmente a través de un ícono de candado (de color verde o
+                                                        amarillo)
+                                                        y la sigla "https" en la barra de direcciones de tu explorador.
+                                                    </p>
+                                                    <p>Además, las operaciones que requieren seguridad en SCOMP deben
+                                                        tener
+                                                        instalado un Certificado Digital en el computador, desde el cual
+                                                        está
+                                                        conectado al sistema.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="border-bottom: 3px solid #27AE61 ;" class="card card-box-qs">
+                                        <div class="card-header bg-white">
+                                            <a class="card-link text-green" data-toggle="collapse"
+                                                href="#collapseThree">
+                                                <div class="panel-title">
+                                                    <span class="icono-acordion"></span>
+                                                    <p>Código único del certificado de ofertas</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                            <div class="row">
+                                                <div class="col-3 d-none d-sm-none d-md-block">
+                                                    <img src="img/icono-lupa-queES.svg" alt="">
+                                                </div>
+                                                <div class="col-12  col-md-9 card-body">
+                                                    <p>El Certificado de Ofertas original contiene un “Correlativo de
+                                                        Emisión
+                                                        CO”, que se encuentra impreso en todas las hojas del Certificado
+                                                        de
+                                                        Ofertas original a continuación de la palabra "original". </p>
+                                                    <p>Este código contiene una combinación de números y letras de al
+                                                        menos
+                                                        6
+                                                        dígitos y es requerido al momento de registrar la Aceptación de
+                                                        Ofertas.
+                                                        De esta manera, solo puede efectuarse utilizando el certificado
+                                                        de
+                                                        ofertas original.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Segundo contenido -->
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="que-es-pilar">
+                                <div class="container">
+                                    <div class="col-12 text-content">
+                                        <div class="row">
+                                            <div class="col-3 d-none d-sm-none d-md-block">
+                                                <img src="img/boligrafo.svg" alt="">
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <div class="text-green">
+                                                    <h3>¿Quiénes fiscalizan su funcionamiento?</h3>
+                                                </div>
+                                                <p> El Sistema, que es supervisado por las Superintendencias de
+                                                    Pensiones y
+                                                    Comisión para el Mercado Financiero, transmite electrónicamente
+                                                    solicitudes y ofertas de montos de pensión, certificados de las
+                                                    ofertas
+                                                    recibidas y comparaciones entre las distintas modalidades de pensión
+                                                    para que el afiliado pueda tomar la mejor y más informada decisión.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- contenedor del collapser DOS -->
+                                    <div class="collapser-box">
+                                        <div id="accordion-3">
+                                            <div class="card card-box-qs">
+                                                <div class="card-header bg-white">
+                                                    <a class="card-link text-green" data-toggle="collapse"
+                                                        href="#collapse01">
+                                                        <div class="panel-title">
+                                                            <span class="icono-acordion"></span>
+                                                            <p>¿Quiénes fiscalizan su funcionamiento?</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="collapse01" class="collapse" data-parent="#accordion-3">
+                                                    <div class="col-12 col-md-9 card-body">
+                                                        <p>El Sistema de Consultas y Ofertas de Montos de Pensión es
+                                                            fiscalizado por la Superintendencia de Pensiones y la
+                                                            Comisión para el Mercado Financiero, las que se encargan de
+                                                            autorizar, supervisar, inspeccionar y/o sancionar su
+                                                            funcionamiento, así como exigir reportes anuales que
+                                                            certifiquen sus condiciones de seguridad.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card card-box-qs">
+                                                <div class="card-header bg-white">
+                                                    <a class="card-link text-green" data-toggle="collapse"
+                                                        href="#collapse02">
+                                                        <div class="panel-title">
+                                                            <span class="icono-acordion"></span>
+                                                            <p>¿Quién son los propietarios de SCOMP?</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="collapse02" class="collapse" data-parent="#accordion-3">
+                                                    <div class=" col-12 col-md-9 card-body">
+                                                        <p>SCOMP S.A. tiene como accionistas por partes iguales a la
+                                                            Asociación de Administradoras de Fondos de Pensiones A.G. y
+                                                            a la
+                                                            Asociación de Aseguradores de Chile A.G. El hosting,
+                                                            desarrollo,
+                                                            mantención y soporte técnico ha sido renovado hasta el 2020
+                                                            a la
+                                                            empresa SONDA S.A.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card card-box-qs">
+                                                <div class="card-header bg-white">
+                                                    <a class="card-link text-green" data-toggle="collapse"
+                                                        href="#collapse03">
+                                                        <div class="panel-title">
+                                                            <span class="icono-acordion"></span>
+                                                            <p>¿Quiénes integran el equipo de SCOMP?</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div id="collapse03" class="collapse" data-parent="#accordion-3">
+                                                    <div class="col-12 col-md-9 card-body">
+                                                        <div class="row">
+                                                            <div class=" col-sm-12 col-md-3">
+                                                                <p class="text-green"><b>Presidente</b></p>
+                                                            </div>
+                                                            <div class=" col-md-9">
+                                                                <p>Sergio Baeza Valdés</p>
+                                                            </div>
+                                                            <div class=" col-sm-12 col-md-3">
+                                                                <p class="text-green"><b>Directores</b></p>
+                                                            </div>
+                                                            <div class=" col-md-9">
+                                                                <p>Claudio Correa Viola<br>
+                                                                    Fernando Larraín Aninat<br>
+                                                                    Jorge Claude Bourdel<br>
+                                                                    Rodrigo López Guzmán<br>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class=" col-sm-12 col-md-3">
+                                                                <p class="text-green"><b>Administración</b></p>
+                                                            </div>
+                                                            <div class="col-sm-12 col-md-9">
+                                                                <div class="integrantes ">
+                                                                    <h5 class="text-green">Gerente General</h5>
+                                                                    <p>Leonardo Vilugron Araneda</p>
+                                                                </div>
+                                                                <div class="integrantes ">
+                                                                    <h5 class="text-green">Gerente de Operaciones</h5>
+                                                                    <p>Eugenio Espinoza Concha</p>
+                                                                </div>
+                                                                <div class="integrantes ">
+                                                                    <h5 class="text-green">Sub Gerente de Operaciones y
+                                                                        TI
+                                                                    </h5>
+                                                                    <p>Sergio Olivares Bravo</p>
+                                                                </div>
+                                                                <div class="integrantes ">
+                                                                    <h5 class="text-green">Gerente de Riesgo y
+                                                                        Cumplimiento
+                                                                        Normativo</h5>
+                                                                    <p>Felipe Sutherland Wiegand</p>
+                                                                </div>
+                                                                <div style="padding-bottom: 20px;" class="integrantes ">
+                                                                    <h5 class="text-green">Asesor Jurídico y Encargado
+                                                                        de Prevención de Delitos</h5>
+                                                                    <p>Francisco Serqueira Abarca</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .link-home {
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+
+        .footer-link {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer-link p {
+            margin-top: 5px 0;
+        }
+
+        .footer-link a {
+            text-decoration: none;
+            color: #000;
+            border: 1px solid #000;
+            padding: 0 5px;
+            margin-left: 5px;
+        }
+    </style>
+
+    <section class="container-fluid denunciar py-3">
+        <div class="row">
+            <div class="col text-center">
+                ¿Tienes algo que denunciar? <a href="denuncia.html"
+                    class="btn btn-outline sm black ml-2 py-1 px-2">Escríbenos
+                    aquí</a>
+            </div>
+        </div>
+    </section>
+
+   
+      <!-- Add your site or application content here -->
+      <script src="lib/jquery/dist/jquery.min.js"></script>
+      <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="lib/fancybox/dist/jquery.fancybox.min.js"></script>
+      <script src="lib/perfect-scrollbar.min.js"></script>
+      <script src="lib/jquery-rut/jquery.rut.min.js"></script>
+      <script src="js/main.js?v=1.1"></script>
+      <script src="js/denuncia.js?v=1.0"></script>
+		
+      </body>
+
+      </html>

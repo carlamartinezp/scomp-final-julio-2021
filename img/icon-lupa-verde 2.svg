@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82.415" height="82.413" viewBox="0 0 82.415 82.413">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00a99d;
+        stroke: #00a99d;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #666;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_1666" data-name="Grupo 1666" transform="translate(-180.619 -3992.226)">
+    <g id="Grupo_1234" data-name="Grupo 1234" transform="translate(1.619 703.054)">
+      <g id="Grupo_1232" data-name="Grupo 1232">
+        <path id="Trazado_7012" data-name="Trazado 7012" class="cls-1" d="M203.889,3329.879l-9.03-9.03,3.975-3.975,5.055,5.055,13-13,3.975,3.975Z"/>
+      </g>
+      <g id="Grupo_1233" data-name="Grupo 1233">
+        <path id="Trazado_7013" data-name="Trazado 7013" class="cls-2" d="M236,3318.17a28,28,0,1,1-28-28A28,28,0,0,1,236,3318.17Z"/>
+        <path id="Trazado_7014" data-name="Trazado 7014" class="cls-2" d="M230,3318.171a22,22,0,1,1-22-22A22,22,0,0,1,230,3318.171Z"/>
+        <line id="Línea_897" data-name="Línea 897" class="cls-2" x2="11.105" y2="11.101" transform="translate(227.829 3338.001)"/>
+        <rect id="Rectángulo_416" data-name="Rectángulo 416" class="cls-2" width="11.918" height="23.835" transform="translate(234.719 3353.32) rotate(-45.011)"/>
+      </g>
+    </g>
+  </g>
+</svg>

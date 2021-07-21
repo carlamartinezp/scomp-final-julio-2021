@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87.561" height="98.431" viewBox="0 0 87.561 98.431">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.251"/>
+      <stop offset="0.045" stop-opacity="0.4"/>
+      <stop offset="0.5"/>
+      <stop offset="0.955" stop-opacity="0.4"/>
+      <stop offset="1" stop-opacity="0.251"/>
+    </linearGradient>
+  </defs>
+  <g id="Сгруппировать_1603" data-name="Сгруппировать 1603" transform="translate(-50.936 -1479.724)">
+    <ellipse id="Эллипс_142" data-name="Эллипс 142" cx="41.5" cy="42" rx="41.5" ry="42" transform="translate(53 1489)" fill="#0071bc"/>
+    <g id="Сгруппировать_1175" data-name="Сгруппировать 1175" transform="matrix(0.978, 0.208, -0.208, 0.978, 69.07, 1479)">
+      <path id="Контур_6844" data-name="Контур 6844" d="M.374,83.184a280.517,280.517,0,0,1,66.186,0L66.147,0H0Z" transform="translate(0 4.038)" opacity="0.2" fill="url(#linear-gradient)"/>
+      <g id="Сгруппировать_1170" data-name="Сгруппировать 1170" transform="translate(0 4.038)">
+        <path id="Контур_6845" data-name="Контур 6845" d="M3.362,80.2H69.548L66.148,0H0Z" fill="#fff"/>
+        <g id="Сгруппировать_1169" data-name="Сгруппировать 1169" transform="translate(10.177 13.115)">
+          <line id="Линия_796" data-name="Линия 796" x2="44.821" transform="translate(0 0)" fill="none" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.838"/>
+          <line id="Линия_797" data-name="Линия 797" x2="44.821" transform="translate(1.397 17.526)" fill="none" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.838"/>
+          <line id="Линия_798" data-name="Линия 798" x2="44.821" transform="translate(1.602 23.001)" fill="none" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.838"/>
+          <line id="Линия_799" data-name="Линия 799" x2="44.821" transform="translate(2.096 33.06)" fill="none" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.838"/>
+          <line id="Линия_800" data-name="Линия 800" x2="44.821" transform="translate(2.301 38.238)" fill="none" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.838"/>
+          <line id="Линия_801" data-name="Линия 801" x2="44.821" transform="translate(2.795 47.996)" fill="none" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.838"/>
+          <line id="Линия_802" data-name="Линия 802" x2="44.821" transform="translate(2.999 53.174)" fill="none" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.838"/>
+        </g>
+      </g>
+      <g id="Сгруппировать_1174" data-name="Сгруппировать 1174" transform="translate(0)">
+        <path id="Контур_6846" data-name="Контур 6846" d="M0,80.254l66.066,3.981L67.5,3.978,1.467,0Z" transform="translate(3.482 0)" fill="#e6e6e6"/>
+        <path id="Контур_6847" data-name="Контур 6847" d="M3.362,80.2H69.548L66.148,0H0Z" transform="translate(0 4.038)" fill="#fff"/>
+        <g id="Сгруппировать_1171" data-name="Сгруппировать 1171" transform="translate(9.583 37.665)">
+          <line id="Линия_803" data-name="Линия 803" x2="48.804" transform="translate(0 0)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Линия_804" data-name="Линия 804" x2="48.804" transform="translate(0.205 4.479)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Линия_805" data-name="Линия 805" x2="48.804" transform="translate(0.699 15.534)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Линия_806" data-name="Линия 806" x2="48.804" transform="translate(0.903 19.716)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Линия_807" data-name="Линия 807" x2="18.931" transform="translate(1.397 30.471)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Линия_808" data-name="Линия 808" x2="18.931" transform="translate(1.602 34.653)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Линия_809" data-name="Линия 809" x2="18.931" transform="translate(31.271 30.471)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Линия_810" data-name="Линия 810" x2="18.931" transform="translate(31.475 34.653)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+        <text id="D.L_3.500" data-name="D.L 3.500" transform="translate(8.761 8.186)" fill="#666" font-size="13" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="14">D.L 3.500</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

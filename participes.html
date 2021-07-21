@@ -1,0 +1,723 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>SCOMP</title>
+        <meta name="description" content="Sistema de consultas y ofertas de montos de pensión">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="img/favicon/site.webmanifest">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="lib/fancybox/dist/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="lib/perfect-scrollbar.css">
+        <link rel="stylesheet" href="css/main.css?V=1.4">
+        <link rel="stylesheet" href="css/denuncia.css?v=1.0">
+        
+    </head>
+    <body>
+        <style>
+            header{
+                height: 80px;
+            }
+
+        </style>
+
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top">
+              
+                    <a class="navbar-brand" href="./"><img src="img/logo-scomp.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+              
+             <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link inicio-img" href="index.html"><img src="img/home-solid.svg" width="25px" height="25px" alt="icono de inicio"><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="proceso-de-pension.html">PROCESO DE PENSIÓN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="certificado-de-ofertas.html">CERTIFICADO DE OFERTAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="que-es-scomp.html">¿QUÉ ES SCOMP?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="participes.html">PARTÍCIPES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mas-informacion.html">MÁS INFORMACIÓN</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+<style>
+@keyframes anim-flecha {
+    from {
+        transform: translate(0%, -10%);
+    }
+
+    to {
+        transform: translate(0%, 20%);
+    }
+}
+
+/* The element to apply the animation to */
+svg.flecha-anim polygon {
+    position: relative;
+    background-color: red;
+    animation: anim-flecha 2s infinite;
+}
+    .participes .seguros-logos {
+            display: block;
+    margin: 0 0 auto;
+    height: 39px;
+    }
+</style>
+<section class="container-fluid hero interior">
+    <div class="container">
+        <div class="row">
+            <div class="col-9 col-md-6">
+                <h1 class="text-calypso">Conoce quiénes participan en tu proceso de pensión<br></h1>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+            <div class="box w100 bg-calypso mr-2 py-4"></div>
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-12 col-md-6 my-auto">
+                        <p>Son partícipes las Administradoras de Fondos de Pensiones (AFP) , las Compañías de Seguros de
+                            Vida y los Asesores Previsionales. Estas entidades y/o personas estarán presentes y,
+                            dependiendo de la modalidad de pensión escogida, te asesorarán en el proceso de pensión.
+                        </p>
+                        <a style="text-decoration: none; color: #fff;" href="#"><img
+                                src="img/ico-flecha-abajo-caja-blanco.svg" alt=""
+                                class="mr-3 svg flecha-anim"><b>Continúa para
+                                conocerlos</b></a>
+                    </div>
+                    <div class="col-12 col-md-6 text-center d-none d-sm-none d-md-block">
+                        <!-- <img src="img/puertas-participes-sf.svg" alt="" class="img-hero img-fluid"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="participes pilar">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav>
+                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link text-calypso active listado-mas-info" id="nav-home-tab"
+                            data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
+                            <span>Administradoras
+                                <br>de Fondos de Pensiones (AFP)</span>
+                        </a>
+                        <a class="nav-item nav-link text-calypso listado-mas-info" id="nav-enlaces-tab"
+                            data-toggle="tab" href="#nav-enlaces" role="tab" aria-controls="nav-enlaces"
+                            aria-selected="false">
+                            <span>CompañÍas
+                                <br> de Seguros de Vida</span>
+                        </a>
+                        <a class="nav-item nav-link text-calypso listado-mas-info" id="nav-profile-tab"
+                            data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
+                            aria-selected="false">
+                            <span>Asesores
+                                <br>Previsionales</span>
+                        </a>
+                    </div>
+                </nav>
+                <section class="tab-content col-12 col-md-10 offset-md-1 py-1 px-1 px-sm-0 " id="nav-tabContent">
+                    <!--TERCER TAB-->
+                    <!-- EN VES DE CAMBIAR EL POSICIONAMIENTO DEL CONTENIDO, FUE CAMBIADO LA DIRECCIONE EN "ARIA-LABEL" y "ID"-->
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="col-12 text-content">
+                            <div class="row">
+                                <div class="col-3 d-none d-sm-none d-md-block">
+                                    <img src="img/portafolio-participes.svg" alt="">
+                                </div>
+                                <div class="col-12 col-md-9">
+                                    <div class="text-calypso">
+                                        <h3>La Asesoría Previsional es:</h3>
+                                    </div>
+                                    <p>El otorgamiento de información a los afiliados y beneficiarios del Sistema de
+                                        Pensiones, considerando de manera integral todos los aspectos que dicen
+                                        relación
+                                        con su situación particular y que fueren necesarios para adoptar decisiones
+                                        informadas de acuerdo a sus necesidades e intereses, en relación con las
+                                        prestaciones y beneficios que contempla la Ley 20.255 que reforma el Sistema
+                                        de
+                                        Pensiones.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Contenedor del TERCER TAB -->
+                        <div class="collapser-box">
+                            <div id="accordion">
+                                <div class="card card-box">
+                                    <div class="card-header bg-white">
+                                        <a class="card-link text-calypso" data-toggle="collapse" href="#collapseOne">
+                                            <div class="panel-title">
+                                                <span class="icono-acordion"></span>
+                                                <p>¿Desde cuándo existe la Asesoría Previsional?</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div id="collapseOne" class="collapse" data-parent="#accordion">
+                                        <div class="col-12 col-md-8 card-body">
+                                            <p>Las entidades de Asesoría Previsional, y Asesores Previsionales, las
+                                                personas jurídicas y naturales, cuyo objeto es el otorgar servicios de
+                                                asesoría previsional a los afiliados y beneficiarios del sistema de
+                                                pensiones regulado por el D.L. 3.500, de 1980, considerando de manera
+                                                integral todos los aspectos que dicen relación con su situación
+                                                particular y que fueren necesarios para adoptar decisiones informadas de
+                                                acuerdo a sus necesidades e intereses, en relación con las prestaciones
+                                                y beneficios de dicho sistema, comprendiendo además la intermediación de
+                                                seguros previsionales, debiendo para ello estar registrados como tales
+                                                en el Registro de Asesores Previsionales, establecido en el artículo
+                                                172, del D.L. 3.500, de 1980. Para efectos de esta norma, se entenderá
+                                                por seguros previsionales las pólizas de seguros de rentas vitalicias
+                                                previsionales.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card card-box">
+                                    <div class="card-header bg-white">
+                                        <a class="card-link text-calypso" data-toggle="collapse" href="#collapseTwo">
+                                            <div class="panel-title">
+                                                <span class="icono-acordion"></span>
+                                                <p>¿Quiénes supervisan a los(as) asesores(as) <br> previsionales?
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                        <div class="col-12 card-body">
+                                            <div class="col-12 col-md-10" style="padding: 8px;">
+                                                <p>Son supervisados(as) por las Superintendencias de Pensiones y de
+                                                    Valores
+                                                    y Seguros, las cuales mantienen el <b>Registro de Asesores
+                                                        Previsionales</b>
+                                                    donde deben estar inscritos y habilitados para operar. Para
+                                                    ello,
+                                                    deben
+                                                    cumplir los requisitos exigidos en la ley y acreditar
+                                                    conocimientos
+                                                    en
+                                                    materias previsionales y de seguro.</p>
+                                            </div>
+
+                                            <!-- <div class="participes-info-boxer">
+                                                <div class="col-12">
+                                                    <div style="margin: 0 0 5px 5px;">
+                                                        <img src="img/icono-megafono-orange.svg" alt="">
+                                                    </div>
+                                                    <h4 class="text-yellow"><b><i>La Comisión por el Mercado
+                                                                Financiero (CMF)
+                                                                recomienda que durante el proceso de
+                                                                pensión:</i></b></h4>
+                                                    <p>Compruebe siempre que los asesores previsionales o agentes de
+                                                        venta de renta vitalicia, en caso de corresponder, se
+                                                        encuentren
+                                                        inscritos en los registros de la CMF.</p>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card card-box">
+                                    <div class="card-header bg-white">
+                                        <a class="card-link text-calypso" data-toggle="collapse" href="#collapseThree">
+                                            <div class="panel-title">
+                                                <span class="icono-acordion"></span>
+                                                <p>¿Cómo se contrata un(a) asesor(a) previsional?</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                        <div class="col-12 card-body">
+                                            <div class="col-12 col-md-10" style="padding: 8px;">
+                                                <p>Todos los afiliados o beneficiarios de pensión que cumplan los
+                                                    requisitos para pensionarse podrán contratar los servicios de
+                                                    un(a)
+                                                    asesor(a) previsional. <b>Esta contratación es voluntaria</b> y
+                                                    en
+                                                    ningún
+                                                    caso podrá comprender la obligación de el o los contratantes de
+                                                    acoger la recomendación que por escrito les fuere proporcionada
+                                                    por
+                                                    el Asesor Previsional.</p>
+                                            </div>
+
+                                            <!-- <div class="participes-info-boxer">
+                                                <div class="col-12">
+                                                    <div style="margin: 0 0 5px 5px;">
+                                                        <img src="img/icono-megafono-orange.svg" alt="">
+                                                    </div>
+                                                    <h4 class="text-yellow"><b><i>La Comisión por el Mercado
+                                                                Financiero (CMF)
+                                                                recomienda que durante el proceso de
+                                                                pensión:</i></b></h4>
+                                                    <p>Recuerde que el ofrecimiento de cualquier incentivo o
+                                                        beneficio
+                                                        por parte de la compañía de seguros, asesor previsional o
+                                                        agente
+                                                        de rentas vitalicias está prohibido. No aceptes
+                                                        ofrecimientos en
+                                                        este sentido y denúncielo cuando ocurran.</p>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="collapser-box">
+                                    <div id="accordion">
+                                        <div class="card card-box" style="border-bottom: 3px solid #00A99D;">
+                                            <div class="card-header bg-white">
+                                                <a class="card-link text-calypso" data-toggle="collapse"
+                                                    href="#collapseFour">
+                                                    <div class="panel-title">
+                                                        <span class="icono-acordion"></span>
+                                                        <p>¿Cuál es el costo de una Asesoría Previsional?</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div id="collapseFour" class="collapse" data-parent="#accordion">
+                                                <div class="col-12 col-md-10" style="padding: 8px;">
+                                                    <p>Todos los afiliados o beneficiarios de pensión que cumplan
+                                                        los
+                                                        requisitos para pensionarse podrán contratar los servicios
+                                                        de
+                                                        un(a)
+                                                        asesor(a) previsional. <b>Esta contratación es
+                                                            voluntaria</b> y
+                                                        en
+                                                        ningún
+                                                        caso podrá comprender la obligación de el o los contratantes
+                                                        de
+                                                        acoger la recomendación que por escrito les fuere
+                                                        proporcionada
+                                                        por
+                                                        el Asesor Previsional.</p>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-1">
+                                                        <img class="flecha-participes" src="img/arrow-calypso.svg"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="col-9 card-body">
+                                                        <h2 class="text-calypso">Retiro programado</h2>
+                                                        <p>Se deben pagar pagar honorarios por concepto de servicios
+                                                            de
+                                                            Asesoría Previsional, con cargo a la cuenta de
+                                                            capitalización individual, con un tope máximo que
+                                                            resulte de
+                                                            multiplicar una tasa máxima fijada mediante decreto
+                                                            supremo,
+                                                            por el saldo de la cuenta de capitalización individual
+                                                            destinado a esta modalidad de pensión. </p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-1">
+                                                        <img class="flecha-participes" src="img/arrow-calypso.svg"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="col-9 card-body">
+                                                        <h2 class="text-calypso">Renta vitalicia</h2>
+                                                        <p>Los honorarios por concepto de Asesoría Previsional que a
+                                                            pagar corresponderán a la comisión o retribución a que
+                                                            alude
+                                                            el inciso decimocuarto del Artículo 61 bis.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="participes-info-boxer">
+                                                    <div class="col-12">
+                                                        <div style="margin: 0 0 5px 5px;">
+                                                            <img src="img/icono-megafono-orange.svg" alt="">
+                                                        </div>
+                                                        <h4 class="text-yellow"><b><i>La Comisión por el Mercado
+                                                                    Financiero
+                                                                    (CMF)
+                                                                    recomienda que durante el proceso de
+                                                                    pensión:</i></b></h4>
+                                                        <p>Ten presente que <b>las Compañías de Seguros de Vida
+                                                                pagan
+                                                                una
+                                                                comisión a los asesores previsionales o entidades de
+                                                                Asesoría Previsional</b> por su labor, quienes deben
+                                                            actuar en
+                                                            forma independiente con distintas compañías de seguro.
+                                                            En
+                                                            otros casos esta comisión es pagada a sus agentes de
+                                                            ventas,
+                                                            quienes sólo pueden actuar para la compañía de seguros
+                                                            para
+                                                            la cual trabajan.</p>
+                                                    </div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PRIMER TAB-->
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="col-12 text-content">
+                            <div class="row">
+                                <div class="col-3 d-none d-sm-none d-md-block">
+                                    <img src="img/banco-participes.svg" alt="">
+                                </div>
+                                <div class="col-12 col-md-9">
+                                    <div class="text-calypso">
+                                        <h3>Las AFP son:</h3>
+                                    </div>
+                                    <p>Entidades privadas, constituidas por sociedades anónimas que tienen como giro
+                                        único administrar los ahorros previsionales que realizan los trabajadores
+                                        afiliados al Sistema de Pensiones y otorgar las prestaciones que establece
+                                        la Ley de Pensiones, como la mantención y entrega de las pensiones en
+                                        modalidad de retiro programado.
+                                    </p>
+                                    <!-- <div class="participes-info-boxer">
+                                        <div class="col-12">
+                                            <div style="margin: 0 0 5px 5px;">
+                                                <img src="img/icono-megafono-orange.svg" alt="">
+                                            </div>
+                                            <h4 class="text-yellow"><b><i>La Comisión por el Mercado Financiero
+                                                        (CMF)
+                                                        recomienda que durante el proceso de pensión:</i></b></h4>
+                                            <p>Recuerde que el ofrecimiento de cualquier incentivo o beneficio
+                                                por parte de la compañía de seguros, asesor previsional o agente
+                                                de rentas vitalicias está prohibido. No aceptes ofrecimientos en
+                                                este sentido y denúncielo cuando ocurran.</p>
+                                        </div>
+                                    </div> -->
+                                    <div class="participes-links-boxer">
+                                        <h5>Las Administradoras que existen actualmente en el sistema previsional
+                                            son las siguientes:</h5>
+                                        <!-- <div class="links-boxer text-calypso">
+                                            <a href="#">Administradora de Fondos de Pensiones Capital S.A.</a>
+                                            <a href="#">Administradora de Fondos de Pensiones Cuprum S.A.</a>
+                                            <a href="#">Administradora de Fondos de Pensiones Planvital S.A.</a>
+                                            <a href="#">Administradora de Fondos de Pensiones Modelo S.A.</a>
+                                            <a href="#">Administradora de Fondos de Pensiones Habitat S.A.</a>
+                                            <a href="#">Administradora de Fondos de Pensiones Provida S.A.</a>
+                                            <a href="#">Administradora de Fondos de Pensiones Uno S.A.</a>
+                                        </div> -->
+                                        <div>
+                                            <div class="row">
+                                                <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://home.afpcapital.cl/" target="_blank"><img class="afp-logos" src="img/logos-AFPs/Capital.jpg" alt="Capital S.A."></a>
+                                                </div>
+                                                <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://www.cuprum.cl" target="_blank"><img class="afp-logos" src="img/logos-AFPs/Cuprum.jpg" alt="Cuprum S.A."></a>
+                                                </div>
+                                                <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://planvital.cl/afiliado/inicio" target="_blank"><img class="afp-logos" src="img/logos-AFPs/Planvital.jpg" alt="Planvital S.A."></a>
+                                                </div>
+                                                <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://www.afpmodelo.cl" target="_blank"><img class="afp-logos" src="img/logos-AFPs/Modelo.jpg" alt="Modelo S.A."></a>
+                                                </div>
+                                                <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://www.afphabitat.cl" target="_blank"><img class="afp-logos" src="img/logos-AFPs/Habitat.jpg" alt="Habitat S.A."></a>
+                                                </div>
+                                                <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://www.provida.cl" target="_blank"><img class="afp-logos" src="img/logos-AFPs/Provida.jpg" alt="Provida S.A."></a>
+                                                </div>
+                                                <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://www.uno.cl/" target="_blank"><img class="afp-logos" src="img/logos-AFPs/Uno.jpg" alt="Uno S.A."></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SEGUNDO TAB-->
+                    <div class="tab-pane fade" id="nav-enlaces" role="tabpanel" aria-labelledby="nav-enlaces-tab">
+                        <div class="enlaces-interes-centenedor">
+                            <div class="col-12 text-content">
+                                <div class="row">
+                                    <div class="col-3 d-none d-sm-none d-md-block">
+                                        <img src="img/banco-participes.svg" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-9">
+                                        <div class="text-calypso">
+                                            <h3>Las Compañías de Seguros de Vida son:</h3>
+                                        </div>
+                                        <p>Empresas que cubren los riesgos personales y de salud de una persona,
+                                            garantizan un capital dentro de un plazo establecido o entregan una
+                                            renta
+                                            para el asegurado y/o quienes disponga como beneficiarios.
+                                        </p>
+                                        <p>Algunas de estas compañías ofrecen rentas vitalicias como modalidad de
+                                            pensión a los afiliados al sistema previsional. Estas entran en vigencia
+                                            una
+                                            vez traspasados los fondos desde la AFP del afiliado hacia la Compañía
+                                            de
+                                            Seguros de Vida que haya seleccionado y finalizan al fallecer el
+                                            asegurado o
+                                            el último de sus beneficiarios. Con esto, la póliza de seguro termina,
+                                            cesando la responsabilidad de la compañía.
+                                        </p>
+<!--
+                                        <div class="participes-info-boxer">
+                                            <div class="col-12">
+                                                <div style="margin: 0 0 5px 5px;">
+                                                    <img src="img/icono-megafono-orange.svg" alt="">
+                                                </div>
+                                                <h4 class="text-yellow"><b><i>La Comisión por el Mercado Financiero
+                                                            (CMF)
+                                                            recomienda que durante el proceso de pensión:</i></b>
+                                                </h4>
+                                                <p>Tenga en siempre cuenta la Clasificación de Riesgo de la Compañía
+                                                    de
+                                                    Seguros de Vida que ofrece la renta vitalicia previsional.</p>
+                                            </div>
+                                        </div>
+-->
+                                        <div class="participes-links-boxer">
+                                            <h6>Actualmente estas rentas son ofrecidas por:</h6>
+<!--
+                                            <div class="links-boxer text-calypso">
+                                                <a href="#">4 Life Seguros S.A.</a>
+                                                <a href="#">Compañía de Seguros de Vida Consorcio Nacional de
+                                                    Seguros
+                                                    S.A.</a>
+                                                <a href="#">Compañía de Seguros Confuturo S.A.</a>
+                                                <a href="#">Chilena Consolidada Seguros de Vida S.A.</a>
+                                                <a href="#">CN Life Compañía de Seguros de Vida S.A.</a>
+                                                <a href="#">Euroamérica Seguros de Vida S.A.</a>
+                                                <a href="#">Metlife Chile Seguros de Vida S.A.</a>
+                                                <a href="#">Ohio National Seguros de Vida S.A.</a>
+                                                <a href="#">Penta Vida Compañía de Seguros de Vida S.A.</a>
+                                                <a href="#">Principal Compañía de Seguros de Vida Chile S.A.</a>
+                                                <a href="#">Renta Nacional Compañía de Seguros de Vida S.A.</a>
+                                                <a href="#">Seguros Vida Security Previsión S.A.</a>
+                                                <a href="#">Compañía de Seguros Corpseguros S.A.</a>
+                                                <a href="#">Seguros de Vida Sura S.A.</a>
+                                                <a href="#">BICE Vida Compañía de Seguros S.A.</a>
+                                                
+-->
+                                                
+                                                 <div class="row">
+                                                <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://eligetuseguro.bicevida.cl/contratacion/seguros/vida-activa?gclid=Cj0KCQjwzYGGBhCTARIsAHdMTQzQa5c8QVzkIvIGEOFEFhEKZFRFpc_LGQx0JP13lQHXGSkjQfD2EIYaArpIEALw_wcB" target="_blank"><img class="seguros-logos" src="img/logo-01.png" alt="Capital S.A."></a>
+                                                </div>
+                                                <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://www.confuturo.cl/" target="_blank"><img class="seguros-logos" src="img/logo-02.png" alt="Cuprum S.A."></a>
+                                                </div>
+                                               
+                                                <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://www.sura.cl/Pages/home.aspx" target="_blank"><img class="seguros-logos" src="img/logo-03.png" alt="Modelo S.A."></a>
+                                                </div>
+                                                <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://adelanto.pentavida.cl/" target="_blank"><img class="seguros-logos" src="img/logo-05.png" alt="Provida S.A."></a>
+                                                </div>
+                                                <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://retiro10rentasvitalicias.rentanacional.cl/" target="_blank"><img class="seguros-logos" src="img/logo-06.png" alt="Uno S.A."></a>
+                                                </div>
+                                                  <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://4lifeseguros.cl/" target="_blank"><img class="seguros-logos" src="img/logo-07.png" alt="Uno S.A."></a>
+                                                </div>
+                                                
+                                                  <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://www14.chilena.cl/es-cl/seguros-personas?gclid=Cj0KCQjwzYGGBhCTARIsAHdMTQw0fwEviKet45A7nhHGHnPkayNC8ecJ8QhpBPefqcQw0h5j66ZGd2MaAmcjEALw_wcB" target="_blank"><img class="seguros-logos" src="img/logo-08.png" alt="Uno S.A."></a>
+                                                </div>
+                                                  <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://w3.metlife.cl/" target="_blank"><img class="seguros-logos" src="img/logo-09.png" alt="Uno S.A."></a>
+                                                </div>
+                                                  <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://www.vidasecurity.cl/" target="_blank"><img class="seguros-logos" src="img/logo-10.png" alt="Uno S.A."></a>
+                                                </div>
+                                                  <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://www.cnlife.cl/" target="_blank"><img class="seguros-logos" src="img/logo-11.png" alt="Uno S.A."></a>
+                                                </div>
+                                                  <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://www.euroamerica.cl/" target="_blank"><img class="seguros-logos" src="img/logo-12.png" alt="Uno S.A."></a>
+                                                </div>
+                                                  <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://web.consorcio.cl/home" target="_blank"><img class="seguros-logos" src="img/logo-14.png" alt="Uno S.A."></a>
+                                                </div>
+                                                  <div class="col-12 col-md-6 my-3">
+                                                    <a href="https://anticipo10.ohionational.cl/landing" target="_blank"><img class="seguros-logos" src="img/logo-15.png" alt="Uno S.A."></a>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="collapser-box">
+                                <div id="accordion-2">
+                                    <div class="card card-box">
+                                        <div class="card-header bg-white">
+                                            <a class="card-link text-calypso" data-toggle="collapse"
+                                                href="#collapse-001">
+                                                <div class="panel-title">
+                                                    <span class="icono-acordion"></span>
+                                                    <p>¿Las ofertas de Rentas Vitalicias aparecen en el Certificado
+                                                        de
+                                                        Ofertas SCOMP?</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div id="collapse-001" class="collapse" data-parent="#accordion-2">
+                                            <div class="col-12 col-md-8 card-body">
+                                                <p>Sí, siempre y cuando hayas escogido dicha modalidad en tu
+                                                    Solicitud
+                                                    de Ofertas pero, además, las Compañías de Seguros te podrán
+                                                    presentar ofertas externas a las que aparezcan en tu Certificado
+                                                    de
+                                                    Ofertas.</p>
+                                            </div>
+<!--
+                                            <div class="participes-info-boxer">
+                                                <div class="col-12">
+                                                    <div style="margin: 0 0 5px 5px;">
+                                                        <img src="img/icono-megafono-orange.svg" alt="">
+                                                    </div>
+                                                    <h4 class="text-yellow"><b><i>La Comisión por el Mercado
+                                                                Financiero (CMF)
+                                                                recomienda que durante el proceso de
+                                                                pensión:</i></b></h4>
+                                                    <p>Lee detenidamente el Certificado de Ofertas de SCOMP,
+                                                        asegurándote de comprender cada una de las ofertas recibidas
+                                                        y
+                                                        que estas se ajusten al requerimiento efectuado al solicitar
+                                                        la
+                                                        consulta respectiva, requiriéndose, en su caso, toda la
+                                                        información que estimes necesaria al efecto. </p>
+                                                </div>
+                                            </div>
+-->
+                                        </div>
+                                    </div>
+                                    <div class="card card-box">
+                                        <div class="card-header bg-white">
+                                            <a class="card-link text-calypso" data-toggle="collapse"
+                                                href="#collapse-002">
+                                                <div class="panel-title">
+                                                    <span class="icono-acordion"></span>
+                                                    <p>¿Existen personas encargadas de comercializar rentas
+                                                        vitalicias?
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div id="collapse-002" class="collapse" data-parent="#accordion-2">
+                                            <div class="col-12 card-body">
+                                                <div class="col-12 col-md-10" style="padding: 8px;">
+                                                    <p>Sí. Existen asesores previsionales, entidades de asesoría
+                                                        previsional, quienes actuan de forma independiente con
+                                                        distintas
+                                                        compañías de seguro. Por otro lado existen agentes de venta
+                                                        de
+                                                        rentas vitalicias, quienes actúan de manera directa para la
+                                                        compañía de seguros en la cual trabajan. </p>
+                                                    <p><b>Ten siempre presente que todas estas personas y entidades
+                                                            reciben una comisión por comercialización de parte de
+                                                            las
+                                                            compañías de seguros.</b></p>
+                                                </div>
+
+<!--
+                                                <div class="participes-info-boxer">
+                                                    <div class="col-12">
+                                                        <div style="margin: 0 0 5px 5px;">
+                                                            <img src="img/icono-megafono-orange.svg" alt="">
+                                                        </div>
+                                                        <h4 class="text-yellow"><b><i>La Comisión por el Mercado
+                                                                    Financiero
+                                                                    (CMF) recomienda que durante el proceso de
+                                                                    pensión:</i></b></h4>
+                                                        <p>Compruebe que el(la) agente de venta de rentas vitalicias
+                                                            o
+                                                            asesor(a) previsional, en caso de corresponder, se
+                                                            encuentre
+                                                            <b>inscrito(a) en los registros de la CMF y no trates
+                                                                nunca
+                                                                con
+                                                                personas no autorizadas</b> para intervenir en la
+                                                            comercialización de rentas vitalicias. Si llegaras a
+                                                            detectar alguna irregularidad denuncia.
+                                                        </p>
+                                                        <p>Evita influencias o presiones al momento de elegir la
+                                                            modalidad de pensión y recuerda que la decisión de
+                                                            pensionar
+                                                            en <b>modalidad de renta vitalicia es irrevocable.</b>
+                                                        </p>
+                                                    </div>
+                                                </div>
+-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="border-bottom: 3px solid #00A99D;;" class="card card-box">
+                                        <div class="card-header bg-white">
+                                            <a class="card-link text-calypso" data-toggle="collapse"
+                                                href="#collapse-003">
+                                                <div class="panel-title">
+                                                    <span class="icono-acordion"></span>
+                                                    <p>¿Las Compañías de Seguros de Vida ofrecen beneficios al tomar
+                                                        una
+                                                        Renta Vitalicia?</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div id="collapse-003" class="collapse" data-parent="#accordion-2">
+                                            <div class="col-12 card-body">
+                                                <div class="col-12 col-md-8" style="padding: 8px;">
+                                                    <p>No. El ofrecimiento de cualquier incentivo o beneficio por
+                                                        parte
+                                                        de la compañía de seguros, asesor(a) previsional o agente de
+                                                        rentas vitalicias <b>está prohibido.</b> No aceptes
+                                                        ofrecimientos en
+                                                        este sentido y denúncialos cuando ocurran.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div> <!-- FIN-SEGUNDO TAB-->
+               
+                    </div>
+
+                </section>
+            
+      <!-- Add your site or application content here -->
+      <script src="lib/jquery/dist/jquery.min.js"></script>
+      <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="lib/fancybox/dist/jquery.fancybox.min.js"></script>
+      <script src="lib/perfect-scrollbar.min.js"></script>
+      <script src="lib/jquery-rut/jquery.rut.min.js"></script>
+      <script src="js/main.js?v=1.1"></script>
+      <script src="js/denuncia.js?v=1.0"></script>
+		
+      </body>
+
+      </html>

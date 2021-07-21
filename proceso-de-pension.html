@@ -1,0 +1,849 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>SCOMP</title>
+        <meta name="description" content="Sistema de consultas y ofertas de montos de pensión">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="img/favicon/site.webmanifest">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="lib/fancybox/dist/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="lib/perfect-scrollbar.css">
+        <link rel="stylesheet" href="css/main.css?V=1.4">
+        <link rel="stylesheet" href="css/denuncia.css?v=1.0">
+        
+    </head>
+    <body>
+        <style>
+            header{
+                height: 80px;
+            }
+
+        </style>
+
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top">
+              
+                    <a class="navbar-brand" href="./"><img src="img/logo-scomp.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+              
+             <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link inicio-img" href="index.html"><img src="img/home-solid.svg" width="25px" height="25px" alt="icono de inicio"><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="proceso-de-pension.html">PROCESO DE PENSIÓN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="certificado-de-ofertas.html">CERTIFICADO DE OFERTAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="que-es-scomp.html">¿QUÉ ES SCOMP?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="participes.html">PARTÍCIPES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mas-informacion.html">MÁS INFORMACIÓN</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+<style>
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+    .bs-tooltip-auto[x-placement^=left] .arrow::before, .bs-tooltip-left .arrow::before {
+    left: 0;
+    border-width: .4rem 0 .4rem .4rem;
+    border-left-color: #386486 !important;
+}
+</style>
+<section class="container-fluid hero interior">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Te explicamos paso a paso<br class="d-none d-sm-block"> tu proceso de pensión SCOMP</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+            <div class="box w100 bg-blue mr-2 py-4"></div>
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-12 col-md-6 my-auto">
+                        <p>Las personas afiliadas al sistema de AFP pueden solicitar una pensión de vejez a partir de
+                            los 60 años en el caso de las mujeres, o 65 años en el caso de los hombres.</p>
+                        <p>SCOMP te entrega información sobre las distintas alternativas a las que podrías acceder, de
+                            acuerdo a los fondos que tengas al momento de pensionarte.
+                        </p>
+                        <p><img src="img/ico-flecha-abajo-caja-blanco.svg" alt=""
+                                class="mr-3 svg flecha-anim"><b>Continúa para conocer los pasos a seguir.</b></p>
+                    </div>
+                    <div class="col-12 col-md-6 text-center d-none d-sm-block">
+                        <img src="img/hero-proceso-pension-big@2x.png" alt="" class="img-hero img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container proceso">
+    <div class="row botonera">
+        <div class="col-12" style="padding:0px;">
+            <nav id="navbar-pasos" class="navbar my-4">
+                <ul class="lst nav nav-pills movil">
+                    <li class="nav-item">
+                        <a class="nav-link uno active" href="#paso-6">
+                            <h4 class="titulo-procesos-tabs">
+                                <small class="movil">1.</small>
+                                INICIA EL PROCESO <br>EN TU AFP
+                            </h4>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dos" href="#paso-7">
+                            <h4 class="titulo-procesos-tabs"><small>2.</small>
+                                SOLICITA TUS <br>OFERTAS DE PENSIÓN</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link tres" href="#paso-8">
+                            <h4 class="titulo-procesos-tabs"><small>3.</small>
+                                EVALÚA TUS <br>ALTERNATIVAS</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cuatro" href="#paso-9">
+
+                            <h4 class="titulo-procesos-tabs"><small>4.</small>
+                                ACEPTA UNA <br>DE LAS OFERTAS</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cinco" href="#paso-10">
+                            <h4 class="titulo-procesos-tabs"><small>5.</small>
+                                RECIBE TU PRIMER <br>PAGO DE PENSIÓN</h4>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="lst nav nav-pills escritorio">
+                    <li class="nav-item">
+                        <a class="nav-link uno active" href="#paso-1">
+                            <img src="img/documento-gris-icon.svg" alt="documento gris" class="svg doct-inicial">
+                            <h4 class="titulo-procesos-tabs">
+                                <small>Paso 1</small>
+                                INICIA EL PROCESO <br>EN TU AFP
+                            </h4>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dos" href="#paso-2">
+                            <img src="img/carculadora-griss-icon.svg" alt="documento gris" class="svg carculadora">
+                            <h4 class="titulo-procesos-tabs"><small>Paso 2</small>
+                                SOLICITA TUS <br>OFERTAS DE PENSIÓN</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link tres" href="#paso-3">
+                            <img src="img/fechas-gris-icon.svg" alt="documento gris" class="svg flechas">
+                            <h4 class="titulo-procesos-tabs"><small>Paso 3</small>
+                                EVALÚA TUS <br>ALTERNATIVAS</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cuatro" href="#paso-4">
+
+                            <img src="img/lupa-griss-icon.svg" alt="documento gris" class="svg lupa">
+                            <h4 class="titulo-procesos-tabs"><small>Paso 4</small>
+                                ACEPTA UNA <br>DE LAS OFERTAS</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cinco" href="#paso-5">
+                            <img src="img/carta-pago-griss-icon.svg" alt="documento gris" class="svg doc-carta">
+                            <h4 class="titulo-procesos-tabs"><small>Paso 5</small>
+                                RECIBE TU PRIMER <br>PAGO DE PENSIÓN</h4>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <style>
+    .lala p.demo {
+        border-bottom: 1px solid blue;
+        height: 80vh;
+    }
+    </style>
+    <div id="pasos" class="row" data-spy="scroll" data-target="#navbar-pasos">
+        <div class="col-12 lala">
+            <div class="row paso escritorio" id="paso-1">
+                <div class="col-12 d-flex mb-5 mt-5">
+                    <img src="img/ico-proceso-pension-paso-1-color.svg" alt="" class="ico-titulo mr-3">
+                    <h2 class="text-lblue my-auto"><small>Paso 1</small><b>Inicia el proceso en tu afp</b></h2>
+                </div>
+                <div class="col-6 col-md-4">
+                    Debes llenar:
+                    <ul class="listado">
+                        <li class="blue">Solicitud de pensión</li>
+                        <li class="blue"><small><b>Infórmate de los requisitos y antecedentes para cada Modalidad de
+                                    Pensión en tu AFP</b> </small></li>
+                    </ul>
+                    Necesitarás:
+                    <ul class="listado">
+                        <li class="grey">Cédula de identidad</li>
+                    </ul>
+
+                    <div class="infobox lblue">
+                        <div class=""><a href="demo-0" class="megafono-boton" data-toggle="collapse"
+                                data-target="#demo-0">
+                                <div class="ico"><img src="img/ico-megafono@2x.png" alt=""></div>
+                                <h4>Recomendación: <img class="recomendacion-flecha"
+                                        src="img/angle-double-down-solid-blue.svg" height="20px" width="20px"
+                                        alt="icono de flechas"></h4>
+                            </a></div>
+                        <div class="content-megafono collapse" id="demo-0">
+
+                            <p>Incorpores en la declaración de beneficiarios que a todos tus beneficiarios con derecho a
+                                pensión de Sobrevivencia. El no hacerlo lo expone a cometer un delito, además de
+                                perjudicar la futura pensión de los beneficiarios legales.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    Recibirás vía correo o e-mail:
+                    <ul class="listado">
+                        <li class="blue">Certificado de saldo</li>
+                        <li class="small">(Válido por 12 días corridos)</li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-md-6 infografia text-center">
+                    <img src="img/certificado-saldo.svg" alt="" class="">
+                    <button type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Para iniciar tu trámite de pensión, debes ir a tu AFP y firmar una <span>solicitud de pensión</span>, presentar la documentación requerida y efectuar tu <span>declaración de beneficiarios.</span>"
+                        style="top: 11%;left: calc(50% - 122px);">+</button>
+                    <button type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Dentro de los 10 días hábiles siguientes, la AFP debe emitir un <span>certificado de saldo</span> que informa la cantidad de dinero con que cuentas para pensionarte. Simultáneamente, la AFP enviará un Certificado Electrónico de Saldo (CES) hacia el Sistema <span>SCOMP.</span>"
+                        style="top: 33%;left: calc(50% + -47px);">+</button>
+                    <button type="button" data-placement="left" class="btn-tooltip" data-toggle="tooltip"
+                        data-html="true"
+                        title="El <span>certificado de saldo</span> tiene una vigencia de 35 días, durante los cuales podrás hacer hasta tres consultas al sistema <span>(solicitud de ofertas)</span>. Si el certificado vence antes de completar tu proceso de pensión, puedes solicitar uno nuevo a tu AFP. Con este certificado, podrás ingresar una <span>solicitud de ofertas</span> de pensión al sistema."
+                        style="top:72%; left:calc(50% - 55px)">+</button>
+                </div>
+
+            </div>
+            <div class="row paso movil" id="paso-6">
+                <div class="col-12 d-flex mb-5">
+                    <img src="img/ico-proceso-pension-paso-1-color.svg" alt="" class="ico-titulo mr-3">
+                    <h2 class="text-lblue my-auto"><small>Paso 1</small><b>Inicia el proceso en tu afp</b></h2>
+                </div>
+                <div class="col-6">
+                    Debes llenar:
+                    <ul class="listado">
+                        <li class="blue">Solicitud de pensión</li>
+                        <li class="blue">Declaración de beneficiarios <a data-fancybox="comision" data-src="#comision"
+                                href="javascript:;">
+                                <img src="img/interrogacion-icon-azul.svg" alt="">
+
+                            </a>
+                            <div id="comision" action="" method="post" class="desplegable-blanco"
+                                style="display: none;width:100%;max-width:660px;">
+                                <div class="icon-movil blue"><img src="img/ico-megafono@2x.png" alt=""></div>
+                                <h3 class="text-lighbox-movil">La Comisión por el Mercado Financiero (SCOMP) recomienda:
+                                </h3>
+                                <p>Incorpores en la declaración de beneficiarios que a todos tus beneficiarios con
+                                    derecho a pensión de Sobrevivencia. El no hacerlo lo expone a cometer un delito,
+                                    además de perjudicar la futura pensión de los beneficiarios legales.</p>
+
+
+                            </div>
+                        </li>
+                    </ul>
+
+                    Necesitarás:
+                    <ul class="listado">
+                        <li class="grey">Cédula de identidad</li>
+                    </ul>
+                    <br>
+                    <br>
+                    Recibirás vía correo o
+                    e-mail:
+                    <ul class="listado">
+                        <li class="blue">Certificado de
+                            saldo <br><small>(Válido por 35
+                                días corridos)</small></li>
+                    </ul>
+
+                </div>
+                <div class="col-6 col-md-6 infografia text-center">
+                    <img src="img/movil-01.svg" alt="" class="imagen-movil">
+                    <a type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Para iniciar tu trámite de pensión, debes ir a tu AFP y firmar una <span>solicitud de pensión</span>, presentar la documentación requerida y efectuar tu <span>declaración de beneficiarios.</span>"
+                        style="position:absolute;top: 11%;left: calc(50% - 55px);"><img src="img/mas-tooltip.svg"
+                            alt=""></a>
+                    <a type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Dentro de los 10 días hábiles siguientes, la AFP debe emitir un <span>certificado de saldo</span> que informa la cantidad de dinero con que cuentas para pensionarte. Simultáneamente, la AFP enviará un Certificado Electrónico de Saldo (CES) hacia el Sistema <span>SCOMP.</span>"
+                        style="position:absolute;top: 33%;left: calc(50% + -47px);"><img src="img/mas-tooltip.svg"
+                            alt=""></a>
+                    <a type="button" data-placement="left" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="El <span>certificado de saldo</span> tiene una vigencia de 35 días, durante los cuales podrás hacer hasta tres consultas al sistema <span>(solicitud de ofertas)</span>. Si el certificado vence antes de completar tu proceso de pensión, puedes solicitar uno nuevo a tu AFP. Con este certificado, podrás ingresar una <span>solicitud de ofertas</span> de pensión al sistema."
+                        style="position:absolute;top:72%; left:calc(50% - 55px)"><img src="img/mas-tooltip.svg"
+                            alt=""></a>
+
+                </div>
+
+            </div>
+
+
+            <div class="row paso escritorio" id="paso-2">
+                <div class="col-12 d-flex mb-5">
+                    <img src="img/calculadora-icon.svg" alt="" class="ico-titulo mr-3">
+                    <h2 class="text-yellow my-auto"><small>Paso 2</small><b>Solicita tus ofertas de pensión</b></h2>
+                </div>
+                <div class="col-6 col-md-4">
+                    Debes llenar:
+                    <ul class="listado">
+                        <li class="yellow ">Solicitud de Oferta de Pensión</li>
+
+                    </ul>
+                    <div class="infobox yellow ">
+                        <div class=""><a href="demo" data-toggle="collapse" data-target="#demo" class="megafono-boton">
+                                <div class="ico"><img src="img/ico-megafono@2x.png" alt=""></div>
+                                <h4>Recomendación: <img class="recomendacion-flecha"
+                                    src="img/angle-double-down-solid-yellow.svg" height="20px" width="20px"
+                                    alt="icono de flechas"></h4>
+                            </a></div>
+                        <div class="content-megafono collapse" id="demo">
+                            <p class="text-verde-esm">Verifique que los datos contenidos en la Solicitud de Ofertas
+                                estén correctos y que se ajusten a lo solicitado.</p>
+                        </div>
+                    </div>
+
+                    <br><br>
+
+                    Recibirás vía e-mail el cuarto dia habil:
+                    <ul class="listado">
+                        <li class="yellow">Certificado de ofertas original</li>
+                        <li class="small">(Válido por 12 días corridos)</li>
+                    </ul>
+                    <div class="infobox yellow ">
+                        <div class=""><a href="demo-2" class="megafono-boton" data-toggle="collapse"
+                                data-target="#demo-2">
+                                <div class="ico"><img src="img/ico-megafono@2x.png" alt=""></div>
+                                <h4>Recomendación: <img class="recomendacion-flecha"
+                                    src="img/angle-double-down-solid-yellow.svg" height="20px" width="20px"
+                                    alt="icono de flechas"></h4>
+                            </a></div>
+                        <div class="content-megafono collapse" id="demo-2">
+                            <p class="">Lea detenidamente su Certificado. Asegúrese de comprender cada una de las
+                                ofertas recibidas, que estas se ajusten a sus requerimientos al solicitarlo y requiera
+                                toda la información que crea necesaria.</p>
+
+                        </div>
+                    </div>
+
+
+                    <br><br>
+
+                </div>
+                <div class="col-6 col-md-6 infografia text-center">
+                    <img src="img/ofertas-pension.svg" alt="" class="">
+                    <button type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Tu solicitud de ofertas debe ser ingresada a través de un partícipe, que puede ser una <span>AFP</span>, <span>compañía de seguros de vida</span> o <span>asesor previsional</span>. En caso de no poder firmar personalmente, la firma debe ser autorizada por un notario público.En caso de realizar este trámite directamente en una <span>AFP</span> o <b>compañía de seguros de vida</b>, sin la participación de un <b>asesor previsional</b> o agente de ventas, las ofertas no consideran honorarios por asesoría o cobro de comisión de intermediación."
+                        style="top: 10%;
+    left: calc(50% + 71px);">+</button>
+                    <button type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title=" Antes de realizar tu consulta, infórmate sobre las modalidades de pensión a las que puedes acceder. En cada consulta puedes seleccionar hasta tres condiciones especiales de cobertura para cada tipo de <span>renta vitalicia</span>. No podrás realizar una nueva consulta mientras exista una en trámite. Puedes pedir hasta tres <span>solicitudes de oferta</span> durante el periodo de vigencia de cada <span>certificado de saldo</span>. Cuando se trate de pensiones de sobrevivencia, la <span>solicitud de ofertas</span> puede ser solicitada por cualquiera de los beneficiarios o de su representante legal. Cada beneficiario también podrá pedir hasta tres solicitudes mientras se encuentre vigente un mismo <span>certificado de saldo</span>."
+                        style="top: 19%;left: calc(50% - 113px);">+</button>
+                    <button type="button" data-placement="left" class="btn-tooltip" data-toggle="tooltip"
+                        data-html="true"
+                        title="Luego de ingresar tu <span>solicitud de oferta</span>, dentro de cuatro días hábiles recibirás tu <span>certificado de ofertas original.</span> Si ingresaste correctamente tu e-mail en la solicitud, podrás recibirlo directamente vía correo electrónico. De lo contrario, el documento original llegará a tu domicilio por correo certificado."
+                        style="top: 46%;
+    left: calc(50% - 47px);">+</button>
+                    <button type="button" data-placement="left" class="btn-tooltip" data-toggle="tooltip"
+                        data-html="true"
+                        title="<span>Tu certificado de ofertas</span> original es el único documento válido para aceptar una oferta y elegir una modalidad de pensión. En caso de extravío, pérdida o destrucción del original o devolución del correo, podrás solicitar a tu AFP de origen un duplicado del certificado original, después de ocho días hábiles de ingresada la consulta. Las ofertas que recibas tendrán una duración de doce días hábiles a contar desde la emisión del <span>certificado de ofertas</span>, aun cuando el <span>certificado de saldo</span> no esté vigente, y el proceso de pensión solo se hará obligatorio si aceptas alguna oferta <span>(paso 4)</span>."
+                        style="top: 63%;
+    left: calc(50% - 151px);">+</button>
+                    <button type="button" data-placement="left" class="btn-tooltip" data-toggle="tooltip"
+                        data-html="true"
+                        title="Este certificado contendrá las ofertas de <span>Retiros Programados, Rentas Vitalicias, Renta Temporal con Renta Vitalicia Diferida y Renta Vitalicia inmediata con Retiro Programado</span>, según corresponda, realizadas por las AFP y compañías de seguros de vida. Simultáneamente, el Sistema pondrá a disposición del participe que ingresó la consulta una copia del <span>certificado de ofertas</span>, la que se diferenciará claramente del original y no podrá utilizarse para la aceptación de ofertas ni selección de modalidad de pensión."
+                        style="top: 63%;
+    left: calc(50% - -56px);">+</button>
+                </div>
+
+            </div>
+            <div class="row paso movil" id="paso-7">
+                <div class="col-12 d-flex mb-5">
+                    <img src="img/calculadora-icon.svg" alt="" class="ico-titulo mr-3">
+                    <h2 class="text-yellow my-auto"><small>Paso 2</small><b>Solicita tus ofertas de pensión</b></h2>
+                </div>
+                <div class="col-6 col-md-4">
+                    Debes llenar:
+                    <ul class="listado">
+                        <li class="yellow ">Solicitud de Oferta de Pensión <a data-fancybox="solicitud-oferta-yellow"
+                                data-src="#solicitud-oferta-yellow" href="javascript:;">
+                                <img src="img/interrogacion-icon-amarillo.svg" alt="">
+
+                            </a>
+                            <div id="solicitud-oferta-yellow" action="" method="post" class="desplegable-blanco"
+                                style="display: none;width:100%;max-width:660px;">
+                                <div class="icon-movil yellow"><img src="img/ico-megafono@2x.png" alt=""></div>
+                                <h3 class="text-lighbox-movil">La Comisión por el Mercado Financiero (SCOMP) recomienda:
+                                </h3>
+                                <p>Verifique que los datos contenidos en la Solicitud de Ofertas estén
+                                    correctos y que se ajusten a lo solicitado.</p>
+
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <br><br>
+
+                    Recibirás vía e-mail el cuarto dia habil:
+                    <ul class="listado">
+                        <li class="yellow">Certificados de oferta original <a
+                                data-fancybox="solicitud-certificado-yellow" data-src="#solicitud-certificado-yellow"
+                                href="javascript:;">
+                                <img src="img/interrogacion-icon-amarillo.svg" alt="">
+
+                            </a>
+                            <div id="solicitud-certificado-yellow" action="" method="post" class="desplegable-blanco"
+                                style="display: none;width:100%;max-width:660px;">
+                                <div class="icon-movil yellow"><img src="img/ico-megafono@2x.png" alt=""></div>
+                                <h3 class="text-lighbox-movil">La Comisión por el Mercado Financiero (SCOMP) recomienda:
+                                </h3>
+                                <p>Lea detenidamente su Certificado. Asegúrese de comprender cada una de las ofertas
+                                    recibidas, que estas se ajusten a sus requerimientos al solicitarlo y requiera toda
+                                    la información que crea necesaria.</p>
+
+
+                            </div>
+                        </li>
+                        <li class="small"><small>(Válido por 12 días corridos)</small></li>
+                    </ul>
+
+                    <br><br>
+
+                </div>
+                <div class="col-6 col-md-6 infografia text-center">
+                    <img src="img/movil-02.svg" alt="" class="imagen-movil">
+                    <a type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Tu solicitud de ofertas debe ser ingresada a través de un partícipe, que puede ser una <span>AFP</span>, <span>compañía de seguros de vida</span> o <span>asesor previsional</span>. En caso de no poder firmar personalmente, la firma debe ser autorizada por un notario público.En caso de realizar este trámite directamente en una <span>AFP</span> o <b>compañía de seguros de vida</b>, sin la participación de un <b>asesor previsional</b> o agente de ventas, las ofertas no consideran honorarios por asesoría o cobro de comisión de intermediación."
+                        style="position:absolute;top: 10%;
+    left: calc(50% + 71px);"><img src="img/mas-tooltip.svg" alt=""></a>
+                    <a type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title=" Antes de realizar tu consulta, infórmate sobre las modalidades de pensión a las que puedes acceder. En cada consulta puedes seleccionar hasta tres condiciones especiales de cobertura para cada tipo de <span>renta vitalicia</span>. No podrás realizar una nueva consulta mientras exista una en trámite. Puedes pedir hasta tres <span>solicitudes de oferta</span> durante el periodo de vigencia de cada <span>certificado de saldo</span>. Cuando se trate de pensiones de sobrevivencia, la <span>solicitud de ofertas</span> puede ser solicitada por cualquiera de los beneficiarios o de su representante legal. Cada beneficiario también podrá pedir hasta tres solicitudes mientras se encuentre vigente un mismo <span>certificado de saldo</span>."
+                        style="position:absolute;top: 17%;
+    left: calc(50% - 67px);"><img src="img/mas-tooltip.svg" alt=""></a>
+                    <a type="button" data-placement="left" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Luego de ingresar tu solicitud de oferta, dentro de ocho días hábiles recibirás tu <span>certificado de ofertas</span>. Si ingresaste correctamente tu e-mail en la solicitud, podrás recibirlo directamente vía correo electrónico. De lo contrario, el documento original llegará a tu domicilio por correo certificado."
+                        style="position:absolute;top: 48%;
+    left: calc(50% - 12px);"><img src="img/mas-tooltip.svg" alt=""></a>
+                    <a type="button" data-placement="left" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="<span>Tu certificado de ofertas</span> original es el único documento válido para aceptar una oferta y elegir una modalidad de pensión. En caso de extravío, pérdida o destrucción del original o devolución del correo, podrás solicitar a tu AFP de origen un duplicado del certificado original, después de ocho días hábiles de ingresada la consulta. Las ofertas que recibas tendrán una duración de doce días hábiles a contar desde la emisión del <span>certificado de ofertas</span>, aun cuando el <span>certificado de saldo</span> no esté vigente, y el proceso de pensión solo se hará obligatorio si aceptas alguna oferta <span>(paso 4)</span>."
+                        style="top: 63%;left: calc(50% - 11px);position:absolute;"><img src="img/mas-tooltip.svg"
+                            alt=""></a>
+                    <a type="button" data-placement="left" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Este certificado contendrá las ofertas de <span>Retiros Programados, Rentas Vitalicias, Renta Temporal con Renta Vitalicia Diferida y Renta Vitalicia inmediata con Retiro Programado</span>, según corresponda, realizadas por las AFP y compañías de seguros de vida. Simultáneamente, el Sistema pondrá a disposición del participe que ingresó la consulta una copia del <span>certificado de ofertas</span>, la que se diferenciará claramente del original y no podrá utilizarse para la aceptación de ofertas ni selección de modalidad de pensión."
+                        style="top: 70%;left: calc(50% - 11px);position:absolute;"><img src="img/mas-tooltip.svg"
+                            alt=""></a>
+                </div>
+
+            </div>
+            <div class="row paso escritorio" id="paso-3">
+                <div class="col-12 d-flex mb-5">
+                    <img src="img/paso-3-icon.svg" alt="" class="ico-titulo mr-3">
+                    <h2 class="text-rosa my-auto"><small>Paso 3</small>Evalúa tus OPCIONES</h2>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="col-12 col-md-9">
+                        <p>Si estás conforme con una de las ofertas, avanza al <span class="text-verde-esm">paso
+                                4.</span></p>
+                        <p>Si no estás conforme con tus ofertas, puedes elegir entre:</p>
+                    </div>
+                    <ul class="listado">
+                        <li class="grey">a. Desistir del proceso</li>
+                        <li class="yellow">b. Realizar una nueva consulta <span class="small">(máximo 3 consultas con un
+                                mismo certificado de saldo)</span></li>
+                        <li class="rosa">c. Solicitar una oferta externa <span class="small">(las mismas compañías de
+                                seguros que participaron pueden mejorar sus ofertas)</span></li>
+                    </ul>
+                    <div class="infobox pink">
+                        <div class=""><a href="demo-3" class="megafono-boton" data-toggle="collapse"
+                                data-target="#demo-3">
+                                <div class="ico"><img src="img/ico-megafono@2x.png" alt=""></div>
+                                <h4 style="color: #F14B94;">Recomendación: <img class="recomendacion-flecha"
+                                    src="img/angle-double-down-solid-pink.svg" height="20px" width="20px"
+                                    alt="icono de flechas"></h4>
+                            </a></div>
+                        <div class="content-megafono collapse" id="demo-3">
+
+                            <p>Lea detenidamente el Certificado de Ofertas de SCOMP, asegurándose de comprender cada una
+                                de las ofertas recibidas y que ellas se ajusten al requerimiento efectuado.</p>
+                        </div>
+                    </div>
+
+                    <br><br>
+                    <ul class="listado">
+                        <li class="rosa">d. Solicitar un remate<br><span class="small">(entre las mismas compañías de
+                                seguros que participaron)</span></li>
+                    </ul>
+                    <br><br>
+                </div>
+                <div class="col-6 col-md-4 infografia text-center">
+                    <img src="img/aceptar-oferta-01.svg" alt="" class="">
+                    <button type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Con el <span>certificado de ofertas</span>, puedes aceptar una de las ofertas contenidas en el documento, solicitar una <span>oferta externa</span>, realizar un <span>remate</span>, solicitar una nueva consulta <span>(solicitud de ofertas)</span> o desistir de tu solicitud de pensión o cambio de modalidad."
+                        style="top: 13%;left: calc(35% - -27px);">+</button>
+                    <button type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Antes de firmar una <span>aceptación de oferta</span>, puedes solicitar una <span>oferta externa</span> a las compañías de seguros de vida que te hayan ofertado internamente (a través de SCOMP) y que hayan sido incluidas en tu certificado de ofertas. Esta nueva oferta deberá ser mayor que la oferta realizada en el sistema, para el mismo tipo de Renta Vitalicia y condiciones especiales de cobertura."
+                        style="top: 17%;left: calc(50% + 262px);">+</button>
+
+                    <button type="button" data-placement="left" class="btn-tooltip" data-toggle="tooltip"
+                        data-html="true"
+                        title="Una vez que la oferta externa haya sido aceptada e ingresada en el sistema, la Compañía te entregará el formulario llamado <span>Oferta Externa de Renta Vitalicia</span>. Para materializar esta opción, debes firmar la Aceptación de la Oferta (paso 4)."
+                        style="top: 37%;left: calc(50% - -200px);">+</button>
+                    <button type="button" data-placement="left" class="btn-tooltip" data-toggle="tooltip"
+                        data-html="true"
+                        title="En caso de no aceptar ninguna oferta del <span>certificado de oferta</span> o de una <span>oferta externa</span>, también tienes la alternativa de solicitar un remate entre las compañías de seguros.
+Para iniciar este proceso, debes suscribir el formulario <span>Solicitud de Remate</span> en tu AFP de origen, seleccionando tipo de pensión, monto de excedente de libre disposición, monto mínimo de pensión y qué compañías invitarás a participar."
+                        style="top: 49%;
+    left: calc(50% - -193px);">+</button>
+                    <button type="button" data-placement="left" class="btn-tooltip" data-toggle="tooltip"
+                        data-html="true"
+                        title="Al menos tres de las compañías invitadas a participar del remate deben haber formulado ofertas internas que se encuentren vigentes en el Sistema, para el tipo de producto solicitado. Podrás incorporar al remate cualquier otra compañía habilitada para operar en el Sistema.
+El plazo máximo de cierre de recepción de ofertas es de 24 horas desde el envío de la información a las compañías. 
+El remate se adjudicará a la Compañía que haya efectuado la mayor postura de monto de pensión. La aceptación de esta oferta es obligatoria para ti si al remate concurren por lo menos dos Compañías de Seguros de Vida."
+                        style="top: 61%;left: calc(50% - -67px);">+</button>
+                    <button type="button" data-placement="left" class="btn-tooltip" data-toggle="tooltip"
+                        data-html="true"
+                        title="El Sistema comunicará el resultado a la AFP de origen, a las Compañías participantes y al Asesor Previsional (si lo hubiere) indicado en la Solicitud de Remate, a través del <span>Certificado de Remate</span>. La AFP de origen te comunicará el resultado por correo y otro medio que elijas. Una vez finalizado el remate tienes 10 días hábiles contados desde el día de cierre, para suscribir los contratos de rentas vitalicias que haya lugar. Si no lo haces, la AFP deberá efectuarlo por ti, a más tardar al día hábil siguiente"
+                        style="top: 72%;
+    left: calc(50% - -60px);">+</button>
+                </div>
+            </div>
+            <div class="row paso movil" id="paso-8">
+                <div class="col-12 d-flex mb-5">
+                    <img src="img/paso-3-icon.svg" alt="" class="ico-titulo mr-3">
+                    <h2 class="text-rosa my-auto"><small>Paso 3</small>Evalúa tus OPCIONES</h2>
+                </div>
+                <div class="col-6">
+                    <div class="col-12 col-md-9">
+                        <p>Si estás conforme con una de las ofertas, avanza al <span class="text-verde-esm">paso
+                                4.</span></p>
+                        <p>Si no estás conforme con tus ofertas, puedes elegir entre:</p>
+                    </div>
+                    <ul class="listado">
+                        <li class="grey">a. Desistir del proceso</li>
+                        <li class="yellow">b. Realizar una nueva consulta <a data-fancybox="nueva-consulta"
+                                data-src="#nueva-consulta" href="javascript:;">
+                                <img src="img/interrogacion-icon-amarillo.svg" alt="">
+
+                            </a>
+                            <div id="nueva-consulta" action="" method="post" class="desplegable-blanco"
+                                style="display: none;width:100%;max-width:660px;">
+                                <div class="icon-movil rosa"><img src="img/ico-megafono@2x.png" alt=""></div>
+                                <h3 class="text-lighbox-movil rosa">La Comisión por el Mercado Financiero (SCOMP)
+                                    recomienda:
+                                </h3>
+                                <p>Evitar influencias o presiones al momento de elegir tu modalidad de pensión.</p>
+
+
+                            </div> <span class="small">(máximo 3 consultas con un mismo certificado de saldo)</span>
+                        </li>
+                        <li class="rosa">c. Solicitar una oferta externa <span class="small">(las mismas compañías de
+                                seguros que participaron pueden mejorar sus ofertas)</span></li>
+                    </ul>
+
+                    <br><br>
+                    <ul class="listado">
+                        <li class="rosa">d. Solicitar un remate<br><span class="small">(entre las mismas compañías de
+                                seguros que participaron)</span></li>
+                    </ul>
+                    <br><br>
+                </div>
+                <div class="col-6  infografia text-center">
+                    <img src="img/movil-03.svg" alt="" class="imagen-movil">
+                    <a type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Con el <span>certificado de ofertas</span>, puedes aceptar una de las ofertas contenidas en el documento, solicitar una <span>oferta externa</span>, realizar un <span>remate</span>, solicitar una nueva consulta <span>(solicitud de ofertas)</span> o desistir de tu solicitud de pensión o cambio de modalidad."
+                        style="position:absolute;top: 13%;left: calc(35% - -27px);"><img src="img/mas-tooltip.svg"
+                            alt=""></a>
+                    <a type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Antes de firmar una <span>aceptación de oferta</span>, puedes solicitar una <span>oferta externa</span> a las compañías de seguros de vida que te hayan ofertado internamente (a través de SCOMP) y que hayan sido incluidas en tu certificado de ofertas. Esta nueva oferta deberá ser mayor que la oferta realizada en el sistema, para el mismo tipo de Renta Vitalicia y condiciones especiales de cobertura."
+                        style="position:absolute;top: 49%;
+    left: calc(50% - 31px);"><img src="img/mas-tooltip.svg" alt=""></a>
+
+                    <a type="button" data-placement="left" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Una vez que la oferta externa haya sido aceptada e ingresada en el sistema, la Compañía te entregará el formulario llamado <span>Oferta Externa de Renta Vitalicia</span>. Para materializar esta opción, debes firmar la Aceptación de la Oferta (paso 4)."
+                        style="position:absolute;top: 49%;
+    left: calc(50% - -13px);p"><img src="img/mas-tooltip.svg" alt=""></a>
+                    <a type="button" data-placement="left" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="En caso de no aceptar ninguna oferta del <span>certificado de oferta</span> o de una <span>oferta externa</span>, también tienes la alternativa de solicitar un remate entre las compañías de seguros.
+Para iniciar este proceso, debes suscribir el formulario <span>Solicitud de Remate</span> en tu AFP de origen, seleccionando tipo de pensión, monto de excedente de libre disposición, monto mínimo de pensión y qué compañías invitarás a participar."
+                        style="position:absolute;top: 65%;
+    left: calc(50% - -13px );"><img src="img/mas-tooltip.svg" alt=""></a>
+                        <a type="button" data-placement="left" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Al menos tres de las compañías invitadas a participar del remate deben haber formulado ofertas internas que se encuentren vigentes en el Sistema, para el tipo de producto solicitado. Podrás incorporar al remate cualquier otra compañía habilitada para operar en el Sistema.
+El plazo máximo de cierre de recepción de ofertas es de 24 horas desde el envío de la información a las compañías. 
+El remate se adjudicará a la Compañía que haya efectuado la mayor postura de monto de pensión. La aceptación de esta oferta es obligatoria para ti si al remate concurren por lo menos dos Compañías de Seguros de Vida."
+                        style="position:absolute;top: 76%;left: calc(50% - 76px);"><img src="img/mas-tooltip.svg" alt=""></a>
+                    <a type="button" data-placement="left" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="El Sistema comunicará el resultado a la AFP de origen, a las Compañías participantes y al Asesor Previsional (si lo hubiere) indicado en la Solicitud de Remate, a través del <span>Certificado de Remate</span>. La AFP de origen te comunicará el resultado por correo y otro medio que elijas. Una vez finalizado el remate tienes 10 días hábiles contados desde el día de cierre, para suscribir los contratos de rentas vitalicias que haya lugar. Si no lo haces, la AFP deberá efectuarlo por ti, a más tardar al día hábil siguiente"
+                        style="position:absolute;top: 76%;
+    left: calc(50% - -50px);"><img src="img/mas-tooltip.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="row paso escritorio" id="paso-4">
+                <div class="col-12 d-flex mb-5">
+                    <img src="img/icon-lupa-verde.svg" alt="" class="ico-titulo mr-3">
+                    <h2 class="text-verde-titulo my-auto"><small>Paso 4</small>acepta una de las ofertas</h2>
+                </div>
+                <div class="col-6 col-md-4">
+                    Para elegir una oferta, debes firmar:
+                    <ul class="listado">
+                        <li class="green">Aceptación de la oferta </li>
+                    </ul>
+                    Según la oferta que elijas, debes dirigirte a:
+                    <ul class="listado">
+                        <li class="green">a. Una AFP, <span class="small">para retiro programado</span></li>
+                        <li class="green">b. Una Compañía de Seguros, <span class="small">para renta vitalicia</span>
+                        </li>
+                    </ul>
+
+                    <div class="infobox lgreen">
+                        <div class=""><a href="demo-4" class="megafono-boton" data-toggle="collapse"
+                                data-target="#demo-4">
+                                <div class="ico"><img src="img/ico-megafono@2x.png" alt=""></div>
+                                <h4 style="color: #00A99D;">Recomendación: <img class="recomendacion-flecha"
+                                    src="img/angle-double-down-solid-green.svg" height="20px" width="20px"
+                                    alt="icono de flechas"></h4>
+                            </a></div>
+                        <div class="content-megafono collapse" id="demo-4">
+
+                            <p>Revise el Formulario de Aceptación de la Oferta antes de firmarlo. En caso de dudas
+                                absténgase de firmar.</p>
+                        </div>
+                    </div>
+
+                    <br><br>
+                    Luego de aceptar la oferta, en tu AFP de origen debes firmar:
+                    <ul class="listado">
+                        <li class="green">Selección de modalidad de pensión</li>
+                    </ul>
+
+                    Además debes presentar:
+                    <ul class="listado">
+                        <li class="green">Aceptación de la oferta</li>
+                        <li class="yellow">Certificado de oferta</li>
+                    </ul>
+                    Si elegiste una oferta externa, adjunta:
+                    <ul class="listado">
+                        <li class="green">Oferta externa de renta vitalicia</li>
+                    </ul>
+
+                </div>
+                <div class="col-6 col-md-6 infografia text-center">
+                    <img src="img/aceptar-oferta.svg" alt="" class="">
+                    <button type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="La Aceptación de la Oferta podrá realizarse en la AFP o Compañía de Seguros de Vida seleccionada o en la AFP de origen. Si optas por Retiro Programado o Renta Vitalicia Inmediata con Retiro Programado podrás acogerte a él en la AFP que hayas seleccionado."
+                        style="top: 57%;left: calc(50% + -121px);">+</button>
+                    <button type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Luego de la Aceptación de la Oferta y para materializar su opción deberás firmar personalmente en la AFP de origen la Selección de Modalidad de Pensión, en ese momento deberás presentar la siguiente documentación: la Aceptación de la Oferta, el Certificado de Ofertas y la Oferta Externa de Renta Vitalicia, si correspondiera. Estos antecedentes se entenderán parte integrante del contrato de renta vitalicia."
+                        style="top: 10%;
+    left: calc(32% - 23px);">+</button>
+
+                </div>
+
+            </div>
+            <div class="row paso movil" id="paso-9">
+                <div class="col-12 d-flex mb-5">
+                    <img src="img/icon-lupa-verde.svg" alt="" class="ico-titulo mr-3">
+                    <h2 class="text-verde-titulo my-auto"><small>Paso 4</small>acepta una de las ofertas</h2>
+                </div>
+                <div class="col-6 col-md-4">
+                    Para elegir una oferta, debes firmar:
+                    <ul class="listado">
+                        <li class="green">Aceptación de la oferta <a data-fancybox="oferta-aceptada-verde"
+                                data-src="#oferta-aceptada-verde" href="javascript:;">
+                                <img src="img/interrogacion-icon-verde.svg" alt="">
+
+                            </a>
+                            <div id="oferta-aceptada-verde" action="" method="post" class="desplegable-blanco"
+                                style="display: none;width:100%;max-width:660px;">
+                                <div class="icon-movil verde"><img src="img/ico-megafono@2x.png" alt=""></div>
+                                <h3 class="text-lighbox-movil verde">La Comisión por el Mercado Financiero (SCOMP)
+                                    recomienda:
+                                </h3>
+                                <p>Revise el Formulario de Aceptación de la Oferta antes de firmarlo. En caso de dudas
+                                    absténgase de firmar.</p>
+
+
+                            </div>
+                        </li>
+                    </ul>
+                    Según la oferta que elijas, debes dirigirte a:
+                    <ul class="listado">
+                        <li class="green">a. Una AFP, <span class="small">para retiro programado</span></li>
+                        <li class="green">b. Una Compañía de Seguros, <span class="small">para renta vitalicia</span>
+                        </li>
+                    </ul>
+
+                    <br><br>
+                    Luego de aceptar la oferta, en tu AFP de origen debes firmar:
+                    <ul class="listado">
+                        <li class="green">Selección de modalidad de pensión</li>
+                    </ul>
+
+                    Además debes presentar:
+                    <ul class="listado">
+                        <li class="green">Aceptación de la oferta</li>
+                        <li class="yellow">Certificado de oferta</li>
+                    </ul>
+                    Si elegiste una oferta externa, adjunta:
+                    <ul class="listado">
+                        <li class="green">Oferta externa de renta vitalicia</li>
+                    </ul>
+
+                </div>
+                <div class="col-6 col-md-6 infografia text-center">
+                    <img src="img/movil-04.svg" alt="" class="imagen-movil">
+                    <a type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="La Aceptación de la Oferta podrá realizarse en la AFP o Compañía de Seguros de Vida seleccionada o en la AFP de origen. Si optas por Retiro Programado o Renta Vitalicia Inmediata con Retiro Programado podrás acogerte a él en la AFP que hayas seleccionado."
+                        style="position:absolute;top: 10%;left: calc(50% - 11px);"><img src="img/mas-tooltip.svg"
+                            alt=""></a>
+                    <a type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Luego de la Aceptación de la Oferta y para materializar su opción deberás firmar personalmente en la AFP de origen la Selección de Modalidad de Pensión, en ese momento deberás presentar la siguiente documentación: la Aceptación de la Oferta, el Certificado de Ofertas y la Oferta Externa de Renta Vitalicia, si correspondiera. Estos antecedentes se entenderán parte integrante del contrato de renta vitalicia."
+                        style="position:absolute;top: 57%;
+    left: calc(50% + -64px);"><img src="img/mas-tooltip.svg" alt=""></a>
+
+                </div>
+
+            </div>
+            <div class="row paso escritorio" id="paso-5">
+                <div class="col-12 d-flex mb-5">
+                    <img src="img/carta-icon-azul.svg" alt="" class="ico-titulo mr-3">
+                    <h2 class="text-lazul my-auto"><small>Paso 5</small>recibe tu primer pago de pensión</h2>
+                </div>
+                <div class="col-6 col-md-4">
+                    Tus fondos son transferidos a la institución elegida, que te entregará:
+                    <ul class="listado">
+                        <li class="azul">Tu primer pago de pensión</li>
+                    </ul>
+
+                </div>
+                <div class="col-6 col-md-6 infografia text-center">
+                    <img src="img/seleccion-modalidad.svg" alt="" class="">
+                    <button type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Una vez ingresados estos documentos, dentro de los siguientes 10 días hábiles comenzarás a recibir tu pensión. Si ingresaste una cuenta bancaria, podrás recibirla directamente vía transferencia electrónica. Consulta las formas de pago disponibles en la <span>AFP</span> o <span>Compañía de Seguros</span> que elijas para administrar tu pensión."
+                        style="top: 65%;
+    left: calc(36% - 55px);">+</button>
+
+                </div>
+
+            </div>
+            <div class="row paso movil" id="paso-10">
+                <div class="col-12 d-flex mb-5">
+                    <img src="img/carta-icon-azul.svg" alt="" class="ico-titulo mr-3">
+                    <h2 class="text-lazul my-auto"><small>Paso 5</small>recibe tu primer pago de pensión</h2>
+                </div>
+                <div class="col-6 col-md-4">
+                    Tus fondos son transferidos a la institución elegida, que te entregará:
+                    <ul class="listado">
+                        <li class="azul">Tu primer pago de pensión</li>
+                    </ul>
+
+                </div>
+                <div class="col-6 col-md-6 infografia text-center">
+                    <img src="img/movil-05.svg" alt="" class="imagen-movil">
+                    <a type="button" class="btn-tooltip" data-toggle="tooltip" data-html="true"
+                        title="Una vez ingresados estos documentos, dentro de los siguientes 10 días hábiles comenzarás a recibir tu pensión. Si ingresaste una cuenta bancaria, podrás recibirla directamente vía transferencia electrónica. Consulta las formas de pago disponibles en la <span>AFP</span> o <span>Compañía de Seguros</span> que elijas para administrar tu pensión."
+                        style="position:absolute;top: 65%;
+    left: calc(36% - 55px);"><img src="img/mas-tooltip.svg" alt=""></a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+      <!-- Add your site or application content here -->
+      <script src="lib/jquery/dist/jquery.min.js"></script>
+      <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="lib/fancybox/dist/jquery.fancybox.min.js"></script>
+      <script src="lib/perfect-scrollbar.min.js"></script>
+      <script src="lib/jquery-rut/jquery.rut.min.js"></script>
+      <script src="js/main.js?v=1.1"></script>
+      <script src="js/denuncia.js?v=1.0"></script>
+      <script>
+$(document).ready(function() {
+    myFunction()
+});
+
+
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(alertFunc, 700);
+}
+
+function alertFunc() {
+    $('.nav-link.cinco').removeClass('active');
+    $('.nav-link.uno').addClass('active');
+}
+$(window).bind('scroll', function() {
+    var parentw = $('#navbar-pasos').parent().width();
+    var top = $(document).scrollTop();
+    if (top >= 516) {
+
+        $('#navbar-pasos').addClass('fixed-top');
+        $('#pasos').css('padding-top', '145px');
+        $('#navbar-pasos').css({
+            'width': parentw,
+            'margin-left': 'calc((100% - ' + parentw + 'px)/2)',
+            'top': '70px'
+        });
+
+
+    } else {
+        $('#navbar-pasos').removeClass('fixed-top');
+        $('#pasos').css('padding-top', '0px');
+        $('#navbar-pasos').css({
+            'width': 'auto',
+            'margin-left': 'auto',
+            'top': '0'
+        });
+
+    }
+});
+</script>
+		
+      </body>
+
+      </html>

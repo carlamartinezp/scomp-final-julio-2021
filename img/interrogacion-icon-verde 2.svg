@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00a99d;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_1611" data-name="Grupo 1611" transform="translate(-77.619 -2715.105)">
+    <g id="Grupo_1565" data-name="Grupo 1565" transform="translate(-37 1954)">
+      <g id="Grupo_360" data-name="Grupo 360" transform="translate(114.619 761.105)">
+        <circle id="Elipse_18" data-name="Elipse 18" class="cls-1" cx="7.5" cy="7.5" r="7.5"/>
+      </g>
+      <line id="Línea_268" data-name="Línea 268" class="cls-2" y1="6" transform="translate(122.119 763.605)"/>
+      <line id="Línea_963" data-name="Línea 963" class="cls-2" y1="2" transform="translate(122.119 771.605)"/>
+    </g>
+  </g>
+</svg>

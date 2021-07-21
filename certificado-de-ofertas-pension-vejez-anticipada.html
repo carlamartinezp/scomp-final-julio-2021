@@ -1,0 +1,600 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>SCOMP</title>
+        <meta name="description" content="Sistema de consultas y ofertas de montos de pensión">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="img/favicon/site.webmanifest">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="lib/fancybox/dist/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="lib/perfect-scrollbar.css">
+        <link rel="stylesheet" href="css/main.css?V=1.4">
+        <link rel="stylesheet" href="css/denuncia.css?v=1.0">
+        
+    </head>
+    <body>
+        <style>
+            header{
+                height: 80px;
+            }
+
+        </style>
+
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top">
+              
+                    <a class="navbar-brand" href="./"><img src="img/logo-scomp.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+              
+             <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link inicio-img" href="index.html"><img src="img/home-solid.svg" width="25px" height="25px" alt="icono de inicio"><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="proceso-de-pension.html">PROCESO DE PENSIÓN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="certificado-de-ofertas.html">CERTIFICADO DE OFERTAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="que-es-scomp.html">¿QUÉ ES SCOMP?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="participes.html">PARTÍCIPES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mas-informacion.html">MÁS INFORMACIÓN</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+<link rel="stylesheet" href="lib/perfect-scrollbar.css">
+<section class="seccion-int-certificado">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-3">
+                <img src="img/relog-icon-certificado-oferta.svg" alt="img" class="contenido-imagen">
+                <div class="dropdown escritorio">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                        style="text-align: left;background: transparent; color: black;outline: none;border-radius: 0px;box-shadow:none;">
+                       PENSIÓN DE VEJEZ ANTICIPADA
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="certificado-de-ofertas-pension-vejez.html">PENSIÓN DE VEJEZ</a>
+                        <a class="dropdown-item" href="certificado-de-ofertas-pension-sobrevivencia.html">PENSIÓN DE SOBREVIVENCIA</a>
+                        <a class="dropdown-item" href="certificado-de-ofertas-pension-invalidez.html">PENSIÓN DE INVALIDEZ</a>
+                    </div>
+                </div>
+                 <div class="dropdown movil">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                        style="text-align: left;background: transparent; color: black;outline: none;border-radius: 0px;box-shadow:none;">
+                       PENSIÓN DE VEJEZ ANTICIPADA
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <ul class="nav nav-pills flex-column">
+                    <li class="nav-item"><a class="nav-link contenedor-li" href="#scroll1">Carta conductora</a>
+                        <!-- <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3 my-1" href="#item-1-1">Despacho de certificado
+                            </a>
+                            <a class="nav-link ml-3 my-1" href="#item-1-2">Fechas importantes</a>
+                        </nav> -->
+                    </li>
+                    <li class="nav-item "><a class="nav-link contenedor-li" href="#scroll2">Información de modalidades
+                            de pensión</a></li>
+                    <li class="nav-item"><a class="nav-link contenedor-li" href="#scroll3">Carátula Certificado de
+                            Ofertas
+                        </a>
+                        <!-- <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3 my-1" href="#item-3-1">Tipo de pensión</a>
+                            <a class="nav-link ml-3 my-1" href="#item-3-2">Vigencia de las ofertas</a>
+                            <a class="nav-link ml-3 my-1" href="#item-3-3">Número de solicitud
+                            </a>
+                        </nav> -->
+                    </li>
+                    <li class="nav-item"><a class="nav-link contenedor-li" href="#scroll4">Información del pensionado,
+                            beneficiarios y saldos</a>
+                        <!-- <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3 my-1" href="#item-4-1">Número de solicitud de ofertas</a>
+                            <a class="nav-link ml-3 my-1" href="#item-4-2">Mis beneficiarios</a>
+                            <a class="nav-link ml-3 my-1" href="#item-4-3">Partícipe que ingresó mi consulta</a>
+                            <a class="nav-link ml-3 my-1" href="#item-4-4">Vigencia de mi consulta</a>
+                            <a class="nav-link ml-3 my-1" href="#item-4-5">Saldo destinado a pensión</a>
+                        </nav> -->
+                    </li>
+                    <li class="nav-item"><a class="nav-link contenedor-li" href="#scroll5">Montos de Retiro
+                            Programado</a>
+                        <!-- <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3 my-1" href="#item-5-1"> Alternativas AFP con Bono Reconocimiento
+                            </a>
+                            <a class="nav-link ml-3 my-1" href="#item-5-2"> Alternativas AFP sin Bono Reconocimiento
+                            </a>
+                            <a class="nav-link ml-3 my-1" href="#item-5-3">Proyección de la pensión según mi edad
+                            </a>
+                        </nav> -->
+                    </li>
+                    <li class="nav-item"><a class="nav-link contenedor-li" href="#scroll6">Ofertas de Rentas Vitalicias</a>
+                    </li>
+                    <li class="nav-item "><a class="nav-link contenedor-li" href="#scroll7">Tasa de Descuento Rentas
+                            Vitalicias</a> </li>
+                    <li class="nav-item"><a class="nav-link contenedor-li" href="#scroll8">Clasificación de Riesgo
+                            Compañías de Seguros</a> </li>
+                </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-3" id="spy">
+                <ul class="nav nav-pills flex-column" id="navCert">
+                    <li class="nav-item"><a class="nav-link contenedor-li" href="#scroll1">Carta conductora</a>
+                        <!-- <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3 my-1" href="#item-1-1">Despacho de certificado
+                            </a>
+                            <a class="nav-link ml-3 my-1" href="#item-1-2">Fechas importantes</a>
+                        </nav> -->
+                    </li>
+                    <li class="nav-item "><a class="nav-link contenedor-li" href="#scroll2">Información de modalidades
+                            de pensión</a></li>
+                    <li class="nav-item"><a class="nav-link contenedor-li" href="#scroll3">Carátula Certificado de
+                            Ofertas
+                        </a>
+                        <!-- <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3 my-1" href="#item-3-1">Tipo de pensión</a>
+                            <a class="nav-link ml-3 my-1" href="#item-3-2">Vigencia de las ofertas</a>
+                            <a class="nav-link ml-3 my-1" href="#item-3-3">Número de solicitud
+                            </a>
+                        </nav> -->
+                    </li>
+                    <li class="nav-item"><a class="nav-link contenedor-li" href="#scroll4">Información del pensionado,
+                            beneficiarios y saldos</a>
+                        <!-- <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3 my-1" href="#item-4-1">Número de solicitud de ofertas</a>
+                            <a class="nav-link ml-3 my-1" href="#item-4-2">Mis beneficiarios</a>
+                            <a class="nav-link ml-3 my-1" href="#item-4-3">Partícipe que ingresó mi consulta</a>
+                            <a class="nav-link ml-3 my-1" href="#item-4-4">Vigencia de mi consulta</a>
+                            <a class="nav-link ml-3 my-1" href="#item-4-5">Saldo destinado a pensión</a>
+                        </nav> -->
+                    </li>
+                    <li class="nav-item"><a class="nav-link contenedor-li" href="#scroll5">Montos de Retiro
+                            Programado</a>
+                        <!-- <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3 my-1" href="#item-5-1"> Alternativas AFP con Bono Reconocimiento
+                            </a>
+                            <a class="nav-link ml-3 my-1" href="#item-5-2"> Alternativas AFP sin Bono Reconocimiento
+                            </a>
+                            <a class="nav-link ml-3 my-1" href="#item-5-3">Proyección de la pensión según mi edad
+                            </a>
+                        </nav> -->
+                    </li>
+                    <li class="nav-item"><a class="nav-link contenedor-li" href="#scroll6">Ofertas de Rentas Vitalicias</a>
+                    </li>
+                    <li class="nav-item "><a class="nav-link contenedor-li" href="#scroll7">Tasa de Descuento Rentas
+                            Vitalicias</a> </li>
+                    <li class="nav-item"><a class="nav-link contenedor-li" href="#scroll8">Clasificación de Riesgo
+                            Compañías de Seguros</a> </li>
+                </ul>
+            </div>
+            <div class="col-sm-9 scrollspy-example" data-spy="scroll" data-target="#spy">
+                <div id="scroll1" class="items-detalle">
+                    <hr>
+                    <p class="epigrafe">Carta conductora</p>
+
+                </div>
+                <div id="item-1-1" class="items-detalle">
+                    <h2>Despacho de certificado</h2>
+                    <p>Es tu dirección para el despacho a domicilio de tu solicitud de ofertas.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <img src="img/recorte-01-certificado.svg" alt="certificado"
+                                class="imagen-referencia pequena">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="contenido-carta">
+                                <a href="img/anticipada/01_cartaconductora.jpg" data-fancybox
+                                    data-caption="&lt;b&gt;Página photo&lt;/b&gt;&lt;br /&gt; 01 / 17"
+                                    class="link-lightbox"></a>
+                                <img src="img/mas-lightbox-certificados.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div id="item-1-2" class="items-detalle">
+                    <h2>Fechas importantes</h2>
+                    <p>Aquí se indican las fechas de vigencia del certificado de ofertas y del certificado de saldo.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <img src="img/recorte-02-fechas-importantes.svg" alt="certificado"
+                                class="imagen-referencia ">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="contenido-carta">
+                                <a href="img/anticipada/01_cartaconductora.jpg" data-fancybox
+                                    data-caption="&lt;b&gt;Página photo&lt;/b&gt;&lt;br /&gt; 02 / 17"
+                                    class="link-lightbox"></a>
+                                <img src="img/mas-lightbox-certificados.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="scroll2" class="items-detalle">
+
+                    <hr>
+                    <p class="epigrafe">Información de modalidades de pensión</p>
+
+                    <p>En esta página encontrarás información relevante sobre las distintas modalidades de pensión
+                        existentes.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <img src="img/recorte-03-modalidades-de-pencion-anticipada.svg" alt="certificado"
+                                class="imagen-referencia">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="contenido-carta">
+                                <a href="img/anticipada/02_infomodalidades.jpg" data-fancybox
+                                    data-caption="&lt;b&gt;Página photo&lt;/b&gt;&lt;br /&gt; 03 / 17"
+                                    class="link-lightbox"></a>
+                                <img src="img/mas-lightbox-certificados.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="scroll3" class="items-detalle">
+
+                    <hr>
+                    <p class="epigrafe">Carátula Certificado de Ofertas</p>
+
+                </div>
+                <div id="item-3-1" class="items-detalle">
+                    <h2>Tipo de pensión</h2>
+                    <p>En este caso, se trata de una pensión de vejez anticipada.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <img src="img/recorte-04-certificado-anticipada.svg" alt="certificado" class="imagen-referencia medio">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="contenido-carta">
+                                <a href="img/anticipada/03_caratula.jpg" data-fancybox
+                                    data-caption="&lt;b&gt;Página photo&lt;/b&gt;&lt;br /&gt; 04 / 17"
+                                    class="link-lightbox"></a>
+                                <img src="img/mas-lightbox-certificados.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="item-3-2" class="items-detalle">
+
+                    <h2>Vigencia de las ofertas</h2>
+                    <p>En este caso, se trata de una pensión de vejez anticipada.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <img src="img/recorte-05-vigencia-anticipada.svg" alt="certificado" class="imagen-referencia medio">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="contenido-carta">
+                                <a href="img/anticipada/03_caratula.jpg" data-fancybox
+                                    data-caption="&lt;b&gt;Página photo&lt;/b&gt;&lt;br /&gt; 05 / 17"
+                                    class="link-lightbox"></a>
+                                <img src="img/mas-lightbox-certificados.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="item-3-3" class="items-detalle">
+
+                    <h2>Número de solicitud</h2>
+                    <p>Corresponde al número único que identifica la solicitud de ofertas realizada por ti.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <img src="img/recorte-06-numero-solicitud-anticipada.svg" alt="certificado"
+                                class="imagen-referencia  pequena">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="contenido-carta">
+                                <a href="img/anticipada/03_caratula.jpg" data-fancybox
+                                    data-caption="&lt;b&gt;Página photo&lt;/b&gt;&lt;br /&gt; 06 / 17"
+                                    class="link-lightbox"></a>
+                                <img src="img/mas-lightbox-certificados.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="scroll4" class="items-detalle" class="items-detalle">
+
+                    <hr>
+                    <p class="epigrafe">Información del pensionado, beneficiarios y saldos</p>
+
+                </div>
+                <div id="item-4-1" class="items-detalle">
+
+                    <h2>Número de solicitud</h2>
+                    <p>Nuevamente se indica el número único que identifica tu solicitud.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <img src="img/recorte-07-numero-solicitud-infor-anticipada.svg" alt="certificado"
+                                class="imagen-referencia pequena">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="contenido-carta">
+                                <a href="img/anticipada/04_infopensionado.jpg" data-fancybox
+                                    data-caption="&lt;b&gt;Página photo&lt;/b&gt;&lt;br /&gt; 07 / 17"
+                                    class="link-lightbox"></a>
+                                <img src="img/mas-lightbox-certificados.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="item-4-2" class="items-detalle">
+
+                    <h2>Mis beneficiarios</h2>
+                    <p>Aquí aparecen los beneficiarios que declaraste en la solicitud de pensión de la AFP donde estás
+                        afiliado.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <img src="img/recorte-08-beneficios.svg" alt="certificado" class="imagen-referencia">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="contenido-carta">
+                                <a href="img/anticipada/04_infopensionado.jpg" data-fancybox
+                                    data-caption="&lt;b&gt;Página photo&lt;/b&gt;&lt;br /&gt; 08 / 17"
+                                    class="link-lightbox"></a>
+                                <img src="img/mas-lightbox-certificados.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="item-4-3" class="items-detalle">
+
+                    <h2>Participe que ingresó mi Consulta</h2>
+                    <p>Es el intermediario que elegiste para efectuar tu solicitud de ofertas. Si optaste por un asesor
+                        o agente previsional, se indicará la Comisión para Montos de Pensión y Ofertas de Compañías.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <img src="img/recorte-09-participies.svg" alt="certificado" class="imagen-referencia">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="contenido-carta">
+                                <a href="img/anticipada/04_infopensionado.jpg" data-fancybox
+                                    data-caption="&lt;b&gt;Página photo&lt;/b&gt;&lt;br /&gt; 09 / 17"
+                                    class="link-lightbox"></a>
+                                <img src="img/mas-lightbox-certificados.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="item-4-4" class="items-detalle">
+
+                    <h2>Vigencia de mi consulta</h2>
+                    <p>Es el plazo máximo de validez que tienen las ofertas incluidas en el certificado.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <img src="img/recorte-10-fecha-vencimiento.svg" alt="certificado"
+                                class="imagen-referencia pequena">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="contenido-carta">
+                                <a href="img/anticipada/04_infopensionado.jpg" data-fancybox
+                                    data-caption="&lt;b&gt;Página photo&lt;/b&gt;&lt;br /&gt; 10 / 17"
+                                    class="link-lightbox"></a>
+                                <img src="img/mas-lightbox-certificados.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="item-4-5" class="items-detalle">
+
+                    <h2>Saldo destinado a pensión</h2>
+                    <p>Corresponde a la suma de tus saldos, obligatorio y voluntarios, destinados al cálculo de la
+                        pensión.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <img src="img/anticipada/recorte11.jpg" alt="certificado" class="imagen-referencia">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="contenido-carta">
+                                <a href="img/anticipada/04_infopensionado.jpg" data-fancybox
+                                    data-caption="&lt;b&gt;Página photo&lt;/b&gt;&lt;br /&gt; 11 / 17"
+                                    class="link-lightbox"></a>
+                                <img src="img/mas-lightbox-certificados.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="scroll5" class="items-detalle">
+
+                    <hr>
+                    <p class="epigrafe">Montos de Retiro Programado</p>
+
+                </div>
+                <div id="item-5-1" class="items-detalle">
+
+                    <h2>Alternativas AFP con Bono Reconocimiento</h2>
+                    <p>Esta tabla indica el monto de las pensiones que ofertan las AFP, considerando la venta de tu Bono
+                        de Reconocimiento en la Bolsa de Valores.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <img src="img/recorte-12-con-bono.svg" alt="certificado" class="imagen-referencia">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="contenido-carta">
+                                <a href="img/anticipada/05_montosRP1.jpg" data-fancybox
+                                    data-caption="&lt;b&gt;Página photo&lt;/b&gt;&lt;br /&gt; 12 / 17"
+                                    class="link-lightbox"></a>
+                                <img src="img/mas-lightbox-certificados.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="item-5-2" class="items-detalle">
+
+                    <h2>Alternativas AFP sin Bono Reconocimiento</h2>
+                    <p>Son los montos de las pensiones que ofertan las AFP, sin endosar tu Bono de Reconocimiento. Tu
+                        bono será liquidado e ingresado a tu cuenta individual cuando cumplas la edad legal para
+                        pensionarte por vejez.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <img src="img/recorte-13-sin-bono.svg" alt="certificado" class="imagen-referencia">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="contenido-carta">
+                                <a href="img/anticipada/05_montosRP1.jpg" data-fancybox
+                                    data-caption="&lt;b&gt;Página photo&lt;/b&gt;&lt;br /&gt; 13 / 17"
+                                    class="link-lightbox"></a>
+                                <img src="img/mas-lightbox-certificados.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="item-5-3" class="items-detalle">
+
+                    <h2>Proyección de la pensión según mi edad</h2>
+                    <p>Esta es una proyección del monto mensual de pensión que entregará la AFP a medida que vayan
+                        pasando los años, asumiendo que los parámetros al momento del cálculo se mantengan en el tiempo.
+                    </p>
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <img src="img/recorte-14-segun-edad.svg" alt="certificado" class="imagen-referencia">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="contenido-carta">
+                                <a href="img/anticipada/06_montosRP2.jpg" data-fancybox
+                                    data-caption="&lt;b&gt;Página photo&lt;/b&gt;&lt;br /&gt; 14 / 17"
+                                    class="link-lightbox"></a>
+                                <img src="img/mas-lightbox-certificados.svg" alt="image">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <br>
+                        <div class="col-12 col-md-10 inf-destacada-certificados">
+
+                            <div class="infobox yellow">
+                                <div class="ico"><img src="img/ico-megafono@2x.png" alt=""></div>
+                                <h4>Importante</h4>
+                                <p>Si ingresaste tu solicitud a través de un asesor previsional, esta sección indicará
+                                    los Honorarios por Asesoría.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="scroll6" class="items-detalle">
+
+                    <hr>
+                    <p class="epigrafe">Ofertas de Renta Vitalicia</p>
+
+                </div>
+                <div id="item-6-1" class="items-detalle">
+
+                    <p>Aquí podrás comparar las ofertas de Renta Vitalicia que realizaron las Compañías de Seguros de
+                        Vida, de acuerdo a lo requerido en tu solicitud de ofertas.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <img src="img/recorte-15-vitalicia.svg" alt="certificado" class="imagen-referencia">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="contenido-carta">
+                                <a href="img/anticipada/07_ofrertasRV.jpg" data-fancybox
+                                    data-caption="&lt;b&gt;Página photo&lt;/b&gt;&lt;br /&gt; 15 / 17"
+                                    class="link-lightbox"></a>
+                                <img src="img/mas-lightbox-certificados.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="item-6-2" class="items-detalle">
+                    <div class="row">
+                        <br>
+                        <div class="col-12 col-md-10 inf-destacada-certificados">
+
+                            <div class="infobox yellow">
+                                <div class="ico"><img src="img/ico-megafono@2x.png" alt=""></div>
+                                <h4>Importante</h4>
+                                <p>Si ingresaste tu solicitud a través de un asesor previsional, esta sección indicará
+                                    los Honorarios por Asesoría.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="scroll7" class="items-detalle">
+
+                    <hr>
+                    <p class="epigrafe">Tasa de descuento Rentas Vitalicias</p>
+
+                </div>
+                <div id="item-7-1" class="items-detalle">
+                    <p>Esta tabla reúne las tasas de descuento informadas por las compañías incluidas en tu certificado
+                        de ofertas.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <img src="img/recorte-16-oferta-vitalicia.svg" alt="certificado" class="imagen-referencia">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="contenido-carta">
+                                <a href="img/anticipada/08_tasasdescuento.jpg" data-fancybox
+                                    data-caption="&lt;b&gt;Página photo&lt;/b&gt;&lt;br /&gt; 16 / 17"
+                                    class="link-lightbox"></a>
+                                <img src="img/mas-lightbox-certificados.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="scroll8" class="items-detalle">
+
+                    <hr>
+                    <p class="epigrafe">Clasificación de Riesgo de las Compañías de Seguros</p>
+
+                </div>
+                <div id="item-8-1" class="items-detalle">
+                    <p>En esta página podrás conocer la Clasificación de Riesgo de las Compañías de Seguros de Vida que realizaron Ofertas en tu certificado.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-10">
+                            <img src="img/recorte-17-riesgo-seguros.svg" alt="certificado" class="imagen-referencia">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="contenido-carta">
+                                <a href="img/anticipada/09_clasificacionderiesgo.jpg" data-fancybox
+                                    data-caption="&lt;b&gt;Página photo&lt;/b&gt;&lt;br /&gt; 17 / 17"
+                                    class="link-lightbox"></a>
+                                <img src="img/mas-lightbox-certificados.svg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Add your site or application content here -->
+      <script src="lib/jquery/dist/jquery.min.js"></script>
+      <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="lib/fancybox/dist/jquery.fancybox.min.js"></script>
+      <script src="lib/perfect-scrollbar.min.js"></script>
+      <script src="lib/jquery-rut/jquery.rut.min.js"></script>
+      <script src="js/main.js?v=1.1"></script>
+      <script src="js/denuncia.js?v=1.0"></script>
+		
+      </body>
+
+      </html>

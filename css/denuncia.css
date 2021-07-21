@@ -1,0 +1,65 @@
+#comentario-contacto{ position: relative; }
+.denuncia-progress {
+    width: 100%;
+    height:10px;
+    background-color: #f0f0f0;
+    position: relative;
+    border-radius: 10px;
+}
+.denuncia-progress .bar{
+    width:0%;
+    height:10px;
+    background-color: red;
+    transition: 0.6s all;
+    position: relative;
+    border-radius: 10px;
+}
+.denuncia-progress .bar .length{
+    position: absolute;
+    right: -40px;
+    bottom: -25px;
+    padding: 0 30px;
+}
+.denuncia-progress:before{
+    position: absolute;
+    left:95%;
+    bottom:-25px;
+    content:'2000';
+    color:rgba(0,0,0,0.2);
+    transition: 1s all;
+}
+.denuncia-progress:after{
+    position: absolute;
+    left:3.4%;
+    bottom:-25px;
+    content:'100';
+    color:rgba(0,0,0,0.2);
+    transition: 1s all;
+}
+.denuncia-progress.tenue:before,
+.denuncia-progress.tenue:after{
+    color:rgba(0,0,0,0.05);
+}
+.proteccion-caja{
+    border: solid 2px;
+    color: #767676;
+    border-radius: 10px;
+}
+.datos-denunciante input { padding:10px; }
+label.switch{ margin-left:25px; }
+label.switch:before,
+label.switch:after{
+    position: absolute;
+    top:5px;
+    font-weight: 700;
+}
+label.switch:before{
+    content: 'NO';
+    left: -25px;
+    z-index: 9;
+}
+label.switch:after{
+    content: 'SI';
+    right: -20px;
+    z-index: 10;
+}

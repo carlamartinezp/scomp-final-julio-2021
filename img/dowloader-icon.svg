@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="19.242" viewBox="0 0 17 19.242">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_1624" data-name="Grupo 1624" transform="translate(-211 -972.258)">
+    <g id="Grupo_377" data-name="Grupo 377">
+      <path id="Trazado_1931" data-name="Trazado 1931" class="cls-1" d="M16,13v5H0V13" transform="translate(211.5 973)"/>
+      <line id="Línea_269" data-name="Línea 269" class="cls-1" y1="14" transform="translate(219.5 973.5)"/>
+      <path id="Trazado_1933" data-name="Trazado 1933" class="cls-1" d="M8,0V8H0" transform="translate(219.5 984.278) rotate(-135)"/>
+    </g>
+  </g>
+</svg>

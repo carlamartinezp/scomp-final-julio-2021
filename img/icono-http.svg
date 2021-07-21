@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="106" height="75" viewBox="0 0 106 75">
+  <defs>
+    <filter id="Прямоугольник_543" x="0" y="21.5" width="106" height="41" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Сгруппировать_1620" data-name="Сгруппировать 1620" transform="translate(-175.5 -1603)">
+    <circle id="Эллипс_142" data-name="Эллипс 142" cx="37.5" cy="37.5" r="37.5" transform="translate(191 1603)" fill="#27ae61"/>
+    <g id="Сгруппировать_1611" data-name="Сгруппировать 1611">
+      <g transform="matrix(1, 0, 0, 1, 175.5, 1603)" filter="url(#Прямоугольник_543)">
+        <g id="Прямоугольник_543-2" data-name="Прямоугольник 543" transform="translate(7.5 25)" fill="#b2b2b2" stroke="#b2b2b2" stroke-width="1">
+          <rect width="91" height="26" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="90" height="25" rx="1.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Прямоугольник_540" data-name="Прямоугольник 540" transform="translate(189 1628)" fill="#fff" stroke="#b2b2b2" stroke-width="2">
+        <rect width="80" height="26" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="78" height="24" rx="3" fill="none"/>
+      </g>
+      <text id="https:_" data-name="https://" transform="translate(210 1631)" fill="#27ae61" font-size="16" font-family="SegoeUI, Segoe UI" letter-spacing="-0.2em"><tspan x="0" y="17">https</tspan><tspan y="17" fill="#b2b2b2">:</tspan><tspan y="17" fill="#b2b2b2" letter-spacing="-0.15em">/</tspan><tspan y="17" fill="#b2b2b2">/</tspan></text>
+      <rect id="Прямоугольник_541" data-name="Прямоугольник 541" width="12" height="10" rx="2" transform="translate(195 1638)" fill="#27ae61"/>
+      <g id="Объединение_1" data-name="Объединение 1" transform="translate(14335 3789)" fill="none">
+        <path d="M-14138-2143v-9a4,4,0,0,1,4-4,4,4,0,0,1,4,4v9Z" stroke="none"/>
+        <path d="M -14132 -2144.999267578125 L -14132 -2152.0009765625 C -14132 -2153.10302734375 -14132.896484375 -2153.999755859375 -14133.9990234375 -2153.999755859375 C -14135.1025390625 -2153.999755859375 -14136.0009765625 -2153.10302734375 -14136.0009765625 -2152.0009765625 L -14136.0009765625 -2144.999267578125 L -14132 -2144.999267578125 M -14130 -2142.999267578125 L -14138.0009765625 -2142.999267578125 L -14138.0009765625 -2152.0009765625 C -14138.0009765625 -2154.207763671875 -14136.208984375 -2155.999755859375 -14133.9990234375 -2155.999755859375 C -14131.7919921875 -2155.999755859375 -14130 -2154.207763671875 -14130 -2152.0009765625 L -14130 -2142.999267578125 Z" stroke="none" fill="#27ae61"/>
+      </g>
+    </g>
+  </g>
+</svg>
